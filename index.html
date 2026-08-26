@@ -84,40 +84,41 @@
       </div>
     </section>
 
-    <!-- VIEW 2: RUANG BACA & KUIS (EDITORIAL READER) -->
+    <!-- VIEW 2: RUANG BACA & KUIS (SEAMLESS CENTERED EDITORIAL READER) -->
     <section class="view-section" id="view-reader">
       <div class="reader-layout">
-        <!-- SIDEBAR TOC -->
-        <aside class="reader-sidebar">
-          <div class="sidebar-title">Daftar Eksperimen (1–100)</div>
-          <ul class="sidebar-nav-list" id="sidebar-nav-list">
-            <!-- Populated by JS -->
-          </ul>
-        </aside>
 
-        <!-- ARTICLE CONTENT -->
-        <article class="reader-article" id="reader-article">
-          <div class="reader-toolbar">
-            <div class="reader-nav-controls">
-              <button class="btn-nav-chapter" id="btn-prev-chapter" onclick="navigateChapter(-1)">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-                Sebelumnya
-              </button>
-              <button class="btn-nav-chapter" id="btn-next-chapter" onclick="navigateChapter(1)">
-                Berikutnya
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-              </button>
-            </div>
-            <div class="reader-font-controls">
-              <button class="btn-font-size" onclick="adjustFontSize(-1)" title="Perkecil Teks">A-</button>
-              <button class="btn-font-size" onclick="adjustFontSize(1)" title="Perbesar Teks">A+</button>
-            </div>
+        <!-- TOP FLOATING READER TOOLBAR -->
+        <div class="reader-header-nav">
+          <button class="reader-back-btn" onclick="switchView('explorer')">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+            Katalog
+          </button>
+
+          <!-- DISCREET QUICK-JUMP SELECTOR -->
+          <div class="reader-select-wrapper">
+            <select class="reader-select" id="reader-chapter-select" onchange="openExperiment(Number(this.value))">
+              <!-- Populated by JS -->
+            </select>
           </div>
 
-          <div id="reader-content-body">
-            <!-- Populated by JS -->
+          <!-- FONT SIZE CONTROLS -->
+          <div class="reader-font-controls">
+            <button class="btn-font-size" onclick="adjustFontSize(-1)" title="Perkecil Teks">A-</button>
+            <button class="btn-font-size" onclick="adjustFontSize(1)" title="Perbesar Teks">A+</button>
           </div>
+        </div>
+
+        <!-- ARTICLE CONTENT BODY -->
+        <article class="reader-article-content" id="reader-content-body">
+          <!-- Populated by JS -->
         </article>
+
+        <!-- BOTTOM PREV/NEXT NAVIGATION -->
+        <div class="reader-bottom-nav" id="reader-bottom-nav">
+          <!-- Populated by JS -->
+        </div>
+
       </div>
     </section>
 

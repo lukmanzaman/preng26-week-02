@@ -5,7 +5,7 @@
 let currentExperimentId = 1;
 let currentFilterTheme = 'all';
 let searchQuery = '';
-let currentFontSize = 19;
+let currentFontSize = 20;
 let userQuizAnswers = {}; // { [expId]: selectedOptionIndex }
 
 // THEMATIC DOMAINS
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   renderThemeChips();
   renderExplorerGrid();
-  renderSidebarTOC();
+  populateChapterSelect();
   loadExperiment(1);
   
   // Close theme dropdown on outside click
@@ -157,32 +157,21 @@ function renderExplorerGrid() {
         </div>
         <div class="card-footer">
           <span class="card-source-tag" title="${sourceBrief}">📖 ${sourceBrief}</span>
-          <span class="card-arrow">${isAnswered ? '✅ Kuis Terjawab &rarr;' : 'Baca & Kuis &rarr;'}</span>
+          <span class="card-arrow">${isAnswered ? '✅ Selesai &rarr;' : 'Baca & Kuis &rarr;'}</span>
         </div>
       </div>
     `;
   }).join('');
 }
 
-// READER VIEW RENDERING
-function renderSidebarTOC() {
-  const list = document.getElementById('sidebar-nav-list');
-  if (!list) return;
+// QUICK-JUMP CHAPTER SELECTOR
+function populateChapterSelect() {
+  const select = document.getElementById('reader-chapter-select');
+  if (!select) return;
 
-  list.innerHTML = EXPERIMENTS_DATA.map(exp => {
-    const isAnswered = userQuizAnswers[exp.id] !== undefined;
-    return `
-      <li>
-        <button class="sidebar-item-btn ${exp.id === currentExperimentId ? 'active' : ''}" 
-                id="toc-btn-${exp.id}" 
-                onclick="openExperiment(${exp.id})">
-          <span class="sidebar-item-num">${String(exp.id).padStart(3, '0')}</span>
-          <span class="sidebar-item-text" style="flex:1;">${exp.title_id}</span>
-          ${isAnswered ? '<span style="font-size:0.7rem; color:var(--success-border);">●</span>' : ''}
-        </button>
-      </li>
-    `;
-  }).join('');
+  select.innerHTML = EXPERIMENTS_DATA.map(exp => `
+    <option value="${exp.id}"># ${String(exp.id).padStart(3, '0')}. ${exp.title_id}</option>
+  `).join('');
 }
 
 function openExperiment(id) {
@@ -190,13 +179,8 @@ function openExperiment(id) {
   loadExperiment(id);
   switchView('reader');
 
-  // Update TOC active state
-  document.querySelectorAll('.sidebar-item-btn').forEach(btn => btn.classList.remove('active'));
-  const activeTocBtn = document.getElementById(`toc-btn-${id}`);
-  if (activeTocBtn) {
-    activeTocBtn.classList.add('active');
-    activeTocBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-  }
+  const select = document.getElementById('reader-chapter-select');
+  if (select) select.value = id;
 }
 
 function openRandomExperiment() {
@@ -221,11 +205,9 @@ function loadExperiment(id) {
   if (!exp) return;
 
   const contentBody = document.getElementById('reader-content-body');
-  const prevBtn = document.getElementById('btn-prev-chapter');
-  const nextBtn = document.getElementById('btn-next-chapter');
-
-  if (prevBtn) prevBtn.disabled = (id === 1);
-  if (nextBtn) nextBtn.disabled = (id === 100);
+  const bottomNav = document.getElementById('reader-bottom-nav');
+  const select = document.getElementById('reader-chapter-select');
+  if (select) select.value = id;
 
   const scenarioHTML = exp.scenario.map(p => `<p>${p}</p>`).join('');
   const commentaryHTML = exp.commentary.map(p => `<p>${p}</p>`).join('');
@@ -346,10 +328,31 @@ function loadExperiment(id) {
     <!-- SEE ALSO -->
     ${seeAlsoHTML}
   `;
+
+  // BOTTOM NAVIGATION
+  if (bottomNav) {
+    const prevExp = id > 1 ? EXPERIMENTS_DATA.find(e => e.id === id - 1) : null;
+    const nextExp = id < 100 ? EXPERIMENTS_DATA.find(e => e.id === id + 1) : null;
+
+    let prevHTML = prevExp ? `
+      <div class="chapter-nav-card" onclick="openExperiment(${prevExp.id})">
+        <span class="nav-direction-label">&larr; Bab Sebelumnya</span>
+        <span class="nav-card-title"># ${String(prevExp.id).padStart(3, '0')}. ${prevExp.title_id}</span>
+      </div>
+    ` : '<div></div>';
+
+    let nextHTML = nextExp ? `
+      <div class="chapter-nav-card next" onclick="openExperiment(${nextExp.id})">
+        <span class="nav-direction-label">Bab Berikutnya &rarr;</span>
+        <span class="nav-card-title"># ${String(nextExp.id).padStart(3, '0')}. ${nextExp.title_id}</span>
+      </div>
+    ` : '<div></div>';
+
+    bottomNav.innerHTML = prevHTML + nextHTML;
+  }
 }
 
 function submitQuizAnswer(expId, optionIdx) {
   userQuizAnswers[expId] = optionIdx;
   loadExperiment(expId);
-  renderSidebarTOC();
 }
