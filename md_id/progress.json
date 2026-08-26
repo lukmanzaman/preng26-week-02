@@ -1,0 +1,809 @@
+{
+  "total": 100,
+  "completed": 100,
+  "in_progress": 0,
+  "pending": 0,
+  "last_updated": "2026-08-26T08:53:58.266081",
+  "entries": {
+    "1": {
+      "num": 1,
+      "status": "completed",
+      "file_en": "001_the_evil_demon.md",
+      "file_id": "001_iblis_jahat.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5101 bytes)"
+    },
+    "2": {
+      "num": 2,
+      "status": "completed",
+      "file_en": "002_beam_me_up.md",
+      "file_id": "002_pindahkan_aku.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4943 bytes)"
+    },
+    "3": {
+      "num": 3,
+      "status": "completed",
+      "file_en": "003_the_indian_and_the_ice.md",
+      "file_id": "003_orang_india_dan_es.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4835 bytes)"
+    },
+    "4": {
+      "num": 4,
+      "status": "completed",
+      "file_en": "004_a_byte_on_the_side.md",
+      "file_id": "004_selingkuh_digital.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4888 bytes)"
+    },
+    "5": {
+      "num": 5,
+      "status": "completed",
+      "file_en": "005_the_pig_that_wants_to_be_eaten.md",
+      "file_id": "005_babi_yang_ingin_dimakan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5165 bytes)"
+    },
+    "6": {
+      "num": 6,
+      "status": "completed",
+      "file_en": "006_wheel_of_fortune.md",
+      "file_id": "006_roda_keberuntungan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4134 bytes)"
+    },
+    "7": {
+      "num": 7,
+      "status": "completed",
+      "file_en": "007_when_no_one_wins.md",
+      "file_id": "007_ketika_tak_ada_yang_menang.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5140 bytes)"
+    },
+    "8": {
+      "num": 8,
+      "status": "completed",
+      "file_en": "008_good_god.md",
+      "file_id": "008_tuhan_yang_baik.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4907 bytes)"
+    },
+    "9": {
+      "num": 9,
+      "status": "completed",
+      "file_en": "009_bigger_brother.md",
+      "file_id": "009_pengawas_maha_besar.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5394 bytes)"
+    },
+    "10": {
+      "num": 10,
+      "status": "completed",
+      "file_en": "010_the_veil_of_ignorance.md",
+      "file_id": "010_selubung_ketidaktahuan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5086 bytes)"
+    },
+    "11": {
+      "num": 11,
+      "status": "completed",
+      "file_en": "011_the_ship_theseus.md",
+      "file_id": "011_kapal_theseus.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4710 bytes)"
+    },
+    "12": {
+      "num": 12,
+      "status": "completed",
+      "file_en": "012_picasso_on_the_beach.md",
+      "file_id": "012_picasso_di_pantai.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4788 bytes)"
+    },
+    "13": {
+      "num": 13,
+      "status": "completed",
+      "file_en": "013_black_white_and_red_all_over.md",
+      "file_id": "013_hitam_putih_dan_merah_di_mana_mana.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5318 bytes)"
+    },
+    "14": {
+      "num": 14,
+      "status": "completed",
+      "file_en": "014_bank_error_in_your_favour.md",
+      "file_id": "014_kekeliruan_bank_yang_menguntungkan_anda.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5086 bytes)"
+    },
+    "15": {
+      "num": 15,
+      "status": "completed",
+      "file_en": "015_ordinary_heroism.md",
+      "file_id": "015_kepahlawanan_biasa.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5438 bytes)"
+    },
+    "16": {
+      "num": 16,
+      "status": "completed",
+      "file_en": "016_racing_tortoises.md",
+      "file_id": "016_kura_kura_balap.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4763 bytes)"
+    },
+    "17": {
+      "num": 17,
+      "status": "completed",
+      "file_en": "017_the_torture_option.md",
+      "file_id": "017_pilihan_penyiksaan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5006 bytes)"
+    },
+    "18": {
+      "num": 18,
+      "status": "completed",
+      "file_en": "018_rationality_demands.md",
+      "file_id": "018_tuntutan_rasionalitas.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4982 bytes)"
+    },
+    "19": {
+      "num": 19,
+      "status": "completed",
+      "file_en": "019_bursting_the_soap_bubble.md",
+      "file_id": "019_meletuskan_gelembung_sabun.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5011 bytes)"
+    },
+    "20": {
+      "num": 20,
+      "status": "completed",
+      "file_en": "020_condemned_to_life.md",
+      "file_id": "020_divonis_menjalani_hidup.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5111 bytes)"
+    },
+    "21": {
+      "num": 21,
+      "status": "completed",
+      "file_en": "021_land_of_the_epiphens.md",
+      "file_id": "021_negeri_kaum_epifen.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5679 bytes)"
+    },
+    "22": {
+      "num": 22,
+      "status": "completed",
+      "file_en": "022_the_lifeboat.md",
+      "file_id": "022_sekoci_penyelamat.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5220 bytes)"
+    },
+    "23": {
+      "num": 23,
+      "status": "completed",
+      "file_en": "023_the_beetle_in_the_box.md",
+      "file_id": "023_kumbang_dalam_kotak.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5420 bytes)"
+    },
+    "24": {
+      "num": 24,
+      "status": "completed",
+      "file_en": "024_squaring_the_circle.md",
+      "file_id": "024_membujursangkarkan_lingkaran.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5343 bytes)"
+    },
+    "25": {
+      "num": 25,
+      "status": "completed",
+      "file_en": "025_buridans_an_ass.md",
+      "file_id": "025_keledai_buridan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5409 bytes)"
+    },
+    "26": {
+      "num": 26,
+      "status": "completed",
+      "file_en": "026_pains_remains.md",
+      "file_id": "026_sisa_sisa_rasa_sakit.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5458 bytes)"
+    },
+    "27": {
+      "num": 27,
+      "status": "completed",
+      "file_en": "027_duties_done.md",
+      "file_id": "027_tugas_yang_tertunaikan.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5243 bytes)"
+    },
+    "28": {
+      "num": 28,
+      "status": "completed",
+      "file_en": "028_the_nightmare_scenario.md",
+      "file_id": "028_skenario_mimpi_buruk.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5428 bytes)"
+    },
+    "29": {
+      "num": 29,
+      "status": "completed",
+      "file_en": "029_life_dependency.md",
+      "file_id": "029_ketergantungan_hidup.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5521 bytes)"
+    },
+    "30": {
+      "num": 30,
+      "status": "completed",
+      "file_en": "030_memories_are_made_of_this.md",
+      "file_id": "030_dari_sinilah_ingatan_terbuat.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5602 bytes)"
+    },
+    "31": {
+      "num": 31,
+      "status": "completed",
+      "file_en": "031_just_so.md",
+      "file_id": "031_memang_begitu_adanya.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5290 bytes)"
+    },
+    "32": {
+      "num": 32,
+      "status": "completed",
+      "file_en": "032_free_simone.md",
+      "file_id": "032_bebaskan_simone.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (5432 bytes)"
+    },
+    "33": {
+      "num": 33,
+      "status": "completed",
+      "file_en": "033_the_free_speech_booth.md",
+      "file_id": "033_bilik_kebebasan_berbicara.md",
+      "completed_at": "2026-08-26T08:51:35.012375",
+      "notes": "Translated (4906 bytes)"
+    },
+    "34": {
+      "num": 34,
+      "status": "completed",
+      "file_en": "034_dont_blame_me.md",
+      "file_id": "034_jangan_salahkan_aku.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "35": {
+      "num": 35,
+      "status": "completed",
+      "file_en": "035_last_resort.md",
+      "file_id": "035_upaya_terakhir.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "36": {
+      "num": 36,
+      "status": "completed",
+      "file_en": "036_pre_emptive_justice.md",
+      "file_id": "036_keadilan_pra_emptif.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "37": {
+      "num": 37,
+      "status": "completed",
+      "file_en": "037_nature_the_artist.md",
+      "file_id": "037_alam_sang_seniman.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "38": {
+      "num": 38,
+      "status": "completed",
+      "file_en": "038_i_am_a_brain.md",
+      "file_id": "038_aku_adalah_otak.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "39": {
+      "num": 39,
+      "status": "completed",
+      "file_en": "039_the_chinese_room.md",
+      "file_id": "039_kamar_bahasa_mandarin.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "40": {
+      "num": 40,
+      "status": "completed",
+      "file_en": "040_the_rocking_horse_winner.md",
+      "file_id": "040_pemenang_di_atas_kuda_goyang.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "41": {
+      "num": 41,
+      "status": "completed",
+      "file_en": "041_getting_the_blues.md",
+      "file_id": "041_meraba_warna_biru.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "42": {
+      "num": 42,
+      "status": "completed",
+      "file_en": "042_take_the_money_and_run.md",
+      "file_id": "042_ambil_uangnya_dan_lari.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "43": {
+      "num": 43,
+      "status": "completed",
+      "file_en": "043_future_shock.md",
+      "file_id": "043_kejutan_masa_depan.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "44": {
+      "num": 44,
+      "status": "completed",
+      "file_en": "044_till_death_us_do_part.md",
+      "file_id": "044_sampai_maut_memisahkan.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "45": {
+      "num": 45,
+      "status": "completed",
+      "file_en": "045_the_invisible_gardener.md",
+      "file_id": "045_tukang_kebun_kasatmata.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "46": {
+      "num": 46,
+      "status": "completed",
+      "file_en": "046_amoebaesque.md",
+      "file_id": "046_menyerupai_amuba.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "47": {
+      "num": 47,
+      "status": "completed",
+      "file_en": "047_rabbit.md",
+      "file_id": "047_kelinci.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "48": {
+      "num": 48,
+      "status": "completed",
+      "file_en": "048_evil_genius.md",
+      "file_id": "048_jenius_yang_jahat.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "49": {
+      "num": 49,
+      "status": "completed",
+      "file_en": "049_the_hole_in_the_sum_of_the_parts.md",
+      "file_id": "049_celah_di_balik_keseluruhan_bagian.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "50": {
+      "num": 50,
+      "status": "completed",
+      "file_en": "050_the_good_bribe.md",
+      "file_id": "050_suap_yang_baik.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "51": {
+      "num": 51,
+      "status": "completed",
+      "file_en": "051_living_in_a_vat.md",
+      "file_id": "051_hidup_dalam_tong.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "52": {
+      "num": 52,
+      "status": "completed",
+      "file_en": "052_more_or_less.md",
+      "file_id": "052_lebih_atau_kurang.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "53": {
+      "num": 53,
+      "status": "completed",
+      "file_en": "053_double_trouble.md",
+      "file_id": "053_dilema_efek_ganda.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "54": {
+      "num": 54,
+      "status": "completed",
+      "file_en": "054_the_elusive_i.md",
+      "file_id": "054_sang_aku_yang_sukar_dipahami.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "55": {
+      "num": 55,
+      "status": "completed",
+      "file_en": "055_sustainable_development.md",
+      "file_id": "055_pembangunan_berkelanjutan.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "56": {
+      "num": 56,
+      "status": "completed",
+      "file_en": "056_the_total_perspective_vortex.md",
+      "file_id": "056_pusaran_perspektif_mutlak.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "57": {
+      "num": 57,
+      "status": "completed",
+      "file_en": "057_eating_tiddles.md",
+      "file_id": "057_memakan_tiddles.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "58": {
+      "num": 58,
+      "status": "completed",
+      "file_en": "058_divine_command.md",
+      "file_id": "058_perintah_ilahi.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "59": {
+      "num": 59,
+      "status": "completed",
+      "file_en": "059_the_eyes_have_it.md",
+      "file_id": "059_memandang_lewat_mata_orang_lain.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "60": {
+      "num": 60,
+      "status": "completed",
+      "file_en": "060_do_as_i_say_not_as_i_do.md",
+      "file_id": "060_ikuti_kata_kataku_jangan_perbuatanku.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "61": {
+      "num": 61,
+      "status": "completed",
+      "file_en": "061_mozzarella_moon.md",
+      "file_id": "061_bulan_mozarela.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "62": {
+      "num": 62,
+      "status": "completed",
+      "file_en": "062_i_think_therefore.md",
+      "file_id": "062_aku_berpikir_maka.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "63": {
+      "num": 63,
+      "status": "completed",
+      "file_en": "063_no_know.md",
+      "file_id": "063_mengira_tahu_padahal_tidak.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "64": {
+      "num": 64,
+      "status": "completed",
+      "file_en": "064_nipping_the_bud.md",
+      "file_id": "064_menumpas_di_hulu.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "65": {
+      "num": 65,
+      "status": "completed",
+      "file_en": "065_soul_power.md",
+      "file_id": "065_kekuatan_jiwa.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "66": {
+      "num": 66,
+      "status": "completed",
+      "file_en": "066_the_forger.md",
+      "file_id": "066_sang_pemalsu.md",
+      "completed_at": "2026-08-26T08:53:26.066813",
+      "notes": "Diterjemahkan oleh Worker 2 dengan standar sastra tinggi."
+    },
+    "67": {
+      "num": 67,
+      "status": "completed",
+      "file_en": "067_the_poppadom_paradox.md",
+      "file_id": "067_paradoks_papadam.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "68": {
+      "num": 68,
+      "status": "completed",
+      "file_en": "068_mad_pain.md",
+      "file_id": "068_rasa_sakit_orang_gila.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "69": {
+      "num": 69,
+      "status": "completed",
+      "file_en": "069_the_horror.md",
+      "file_id": "069_kengerian_yang_hakiki.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "70": {
+      "num": 70,
+      "status": "completed",
+      "file_en": "070_an_inspector_calls.md",
+      "file_id": "070_sang_inspektur_tiba.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "71": {
+      "num": 71,
+      "status": "completed",
+      "file_en": "071_life_support.md",
+      "file_id": "071_penopang_hidup.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "72": {
+      "num": 72,
+      "status": "completed",
+      "file_en": "072_free_percy.md",
+      "file_id": "072_bebaskan_percy.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "73": {
+      "num": 73,
+      "status": "completed",
+      "file_en": "073_being_a_bat.md",
+      "file_id": "073_menjadi_seekor_kelelawar.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "74": {
+      "num": 74,
+      "status": "completed",
+      "file_en": "074_water_water_everywhere.md",
+      "file_id": "074_air_air_di_mana_mana.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "75": {
+      "num": 75,
+      "status": "completed",
+      "file_en": "075_the_ring_of_gyges.md",
+      "file_id": "075_cincin_gyges.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "76": {
+      "num": 76,
+      "status": "completed",
+      "file_en": "076_net_head.md",
+      "file_id": "076_kepala_internet.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "77": {
+      "num": 77,
+      "status": "completed",
+      "file_en": "077_the_scapegoat.md",
+      "file_id": "077_kambing_hitam.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "78": {
+      "num": 78,
+      "status": "completed",
+      "file_en": "078_gambling_on_god.md",
+      "file_id": "078_bertaruh_demi_tuhan.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "79": {
+      "num": 79,
+      "status": "completed",
+      "file_en": "079_a_clockwork_orange.md",
+      "file_id": "079_jeruk_mekanis.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "80": {
+      "num": 80,
+      "status": "completed",
+      "file_en": "080_hearts_and_heads.md",
+      "file_id": "080_hati_dan_nalar.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "81": {
+      "num": 81,
+      "status": "completed",
+      "file_en": "081_sense_and_sensibility.md",
+      "file_id": "081_persepsi_dan_keberadaan.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "82": {
+      "num": 82,
+      "status": "completed",
+      "file_en": "082_the_freeloader.md",
+      "file_id": "082_penumpang_gelap.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "83": {
+      "num": 83,
+      "status": "completed",
+      "file_en": "083_the_golden_rule.md",
+      "file_id": "083_kaidah_kencana.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "84": {
+      "num": 84,
+      "status": "completed",
+      "file_en": "084_the_pleasure_principle.md",
+      "file_id": "084_prinsip_kesenangan.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "85": {
+      "num": 85,
+      "status": "completed",
+      "file_en": "085_the_nowhere_man.md",
+      "file_id": "085_manusia_yang_tak_pernah_ada.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "86": {
+      "num": 86,
+      "status": "completed",
+      "file_en": "086_art_for_arts_sake.md",
+      "file_id": "086_seni_demi_seni.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "87": {
+      "num": 87,
+      "status": "completed",
+      "file_en": "087_fair_inequality.md",
+      "file_id": "087_ketimpangan_yang_adil.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "88": {
+      "num": 88,
+      "status": "completed",
+      "file_en": "088_total_lack_of_recall.md",
+      "file_id": "088_hilang_ingatan_total.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "89": {
+      "num": 89,
+      "status": "completed",
+      "file_en": "089_kill_and_let_die.md",
+      "file_id": "089_membunuh_dan_membiarkan_mati.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "90": {
+      "num": 90,
+      "status": "completed",
+      "file_en": "090_something_we_know_not_what.md",
+      "file_id": "090_sesuatu_yang_tak_kita_pahami.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "91": {
+      "num": 91,
+      "status": "completed",
+      "file_en": "091_no_one_gets_hurt.md",
+      "file_id": "091_tak_ada_yang_terluka.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "92": {
+      "num": 92,
+      "status": "completed",
+      "file_en": "092_autogovernment.md",
+      "file_id": "092_pemerintahan_otomatis.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "93": {
+      "num": 93,
+      "status": "completed",
+      "file_en": "093_zombies.md",
+      "file_id": "093_zombi.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "94": {
+      "num": 94,
+      "status": "completed",
+      "file_en": "094_the_sorites_tax.md",
+      "file_id": "094_pajak_sorites.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "95": {
+      "num": 95,
+      "status": "completed",
+      "file_en": "095_the_problem_of_evil.md",
+      "file_id": "095_masalah_kejahatan.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "96": {
+      "num": 96,
+      "status": "completed",
+      "file_en": "096_family_first.md",
+      "file_id": "096_keluarga_yang_utama.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "97": {
+      "num": 97,
+      "status": "completed",
+      "file_en": "097_moral_luck.md",
+      "file_id": "097_keberuntungan_moral.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "98": {
+      "num": 98,
+      "status": "completed",
+      "file_en": "098_the_experience_machine.md",
+      "file_id": "098_mesin_pengalaman.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "99": {
+      "num": 99,
+      "status": "completed",
+      "file_en": "099_give_peace_a_chance.md",
+      "file_id": "099_beri_perdamaian_kesempatan.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    },
+    "100": {
+      "num": 100,
+      "status": "completed",
+      "file_en": "100_the_nest_cafe.md",
+      "file_id": "100_kafe_sarang.md",
+      "completed_at": "2026-08-26T08:51:38.482098",
+      "notes": "Worker 3 translation completed"
+    }
+  }
+}

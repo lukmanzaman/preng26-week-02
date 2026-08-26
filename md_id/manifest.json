@@ -1,0 +1,647 @@
+{
+  "project": "Terjemahan Bahasa Indonesia: The Pig That Wants to Be Eaten",
+  "author": "Julian Baggini",
+  "version": "1.0",
+  "target_literacy": "High literacy, sastra populer mengalir, non-kalkir",
+  "glossary": {
+    "thought experiment": "eksperimen pikiran",
+    "veil of ignorance": "selubung ketidaktahuan",
+    "free will": "kehendak bebas",
+    "epiphenomenon": "epifenomenon",
+    "epiphenomenalism": "epifenomenalisme",
+    "reductionism": "reduksionisme",
+    "physicalism": "fisikalisme",
+    "utilitarianism": "utilitarianisme",
+    "categorical imperative": "imperatif kategoris",
+    "qualia": "kualia (pengalaman indrawi subjektif)",
+    "consciousness": "kesadaran",
+    "determinism": "determinisme",
+    "supererogatory": "melampaui kewajiban (tindakan supererogatori)",
+    "double effect": "efek ganda (doktrin efek ganda)",
+    "teletransporter": "teletransporter / bilik teleportasi",
+    "category mistake": "kekeliruan kategori",
+    "under-determination of theory": "teori tidak terdeterminasi mutlak oleh bukti",
+    "meaning holism": "holisme makna",
+    "justified true belief": "keyakinan benar yang terjustifikasi",
+    "bundle theory of self": "teori berkas persepsi tentang diri",
+    "inverted spectrum": "spektrum warna terbalik",
+    "prisoner's dilemma": "dilema tahanan",
+    "repugnant conclusion": "kesimpulan yang absurd / konklusi menjijikkan (Parfit)",
+    "leap of faith": "lompatan keimanan",
+    "philosophical zombies": "zombi filosofis",
+    "twin earth": "bumi kembar",
+    "ring of gyges": "cincin gyges",
+    "moral luck": "keberuntungan moral",
+    "experience machine": "mesin pengalaman",
+    "sorites paradox": "paradoks sorites",
+    "higher & lower pleasures": "kesenangan luhur & kesenangan rendah",
+    "the golden rule": "kaidah kencana",
+    "freeloader problem": "masalah penumpang gelap",
+    "difference principle": "prinsip perbedaan (John Rawls)",
+    "on denoting": "teori deskripsi pasti (Bertrand Russell)"
+  },
+  "entries": {
+    "1": {
+      "en": "The evil demon",
+      "id": "Iblis Jahat",
+      "file_en": "001_the_evil_demon.md",
+      "file_id": "001_iblis_jahat.md"
+    },
+    "2": {
+      "en": "Beam me up …",
+      "id": "Pindahkan Aku…",
+      "file_en": "002_beam_me_up.md",
+      "file_id": "002_pindahkan_aku.md"
+    },
+    "3": {
+      "en": "The Indian and the ice",
+      "id": "Orang India dan Es",
+      "file_en": "003_the_indian_and_the_ice.md",
+      "file_id": "003_orang_india_dan_es.md"
+    },
+    "4": {
+      "en": "A byte on the side",
+      "id": "Selingkuh Digital",
+      "file_en": "004_a_byte_on_the_side.md",
+      "file_id": "004_selingkuh_digital.md"
+    },
+    "5": {
+      "en": "The pig that wants to be eaten",
+      "id": "Babi yang Ingin Dimakan",
+      "file_en": "005_the_pig_that_wants_to_be_eaten.md",
+      "file_id": "005_babi_yang_ingin_dimakan.md"
+    },
+    "6": {
+      "en": "Wheel of fortune",
+      "id": "Roda Keberuntungan",
+      "file_en": "006_wheel_of_fortune.md",
+      "file_id": "006_roda_keberuntungan.md"
+    },
+    "7": {
+      "en": "When no one wins",
+      "id": "Ketika Tak Ada yang Menang",
+      "file_en": "007_when_no_one_wins.md",
+      "file_id": "007_ketika_tak_ada_yang_menang.md"
+    },
+    "8": {
+      "en": "Good God",
+      "id": "Tuhan yang Baik",
+      "file_en": "008_good_god.md",
+      "file_id": "008_tuhan_yang_baik.md"
+    },
+    "9": {
+      "en": "Bigger Brother",
+      "id": "Pengawas Maha Besar",
+      "file_en": "009_bigger_brother.md",
+      "file_id": "009_pengawas_maha_besar.md"
+    },
+    "10": {
+      "en": "The veil of ignorance",
+      "id": "Selubung Ketidaktahuan",
+      "file_en": "010_the_veil_of_ignorance.md",
+      "file_id": "010_selubung_ketidaktahuan.md"
+    },
+    "11": {
+      "en": "The ship Theseus",
+      "id": "Kapal Theseus",
+      "file_en": "011_the_ship_theseus.md",
+      "file_id": "011_kapal_theseus.md"
+    },
+    "12": {
+      "en": "Picasso on the beach",
+      "id": "Picasso di Pantai",
+      "file_en": "012_picasso_on_the_beach.md",
+      "file_id": "012_picasso_di_pantai.md"
+    },
+    "13": {
+      "en": "Black, white and red all over",
+      "id": "Hitam, Putih, dan Merah di Mana-Mana",
+      "file_en": "013_black_white_and_red_all_over.md",
+      "file_id": "013_hitam_putih_dan_merah_di_mana_mana.md"
+    },
+    "14": {
+      "en": "Bank error in your favour",
+      "id": "Kekeliruan Bank yang Menguntungkan Anda",
+      "file_en": "014_bank_error_in_your_favour.md",
+      "file_id": "014_kekeliruan_bank_yang_menguntungkan_anda.md"
+    },
+    "15": {
+      "en": "Ordinary heroism",
+      "id": "Kepahlawanan Biasa",
+      "file_en": "015_ordinary_heroism.md",
+      "file_id": "015_kepahlawanan_biasa.md"
+    },
+    "16": {
+      "en": "Racing tortoises",
+      "id": "Kura-Kura Balap",
+      "file_en": "016_racing_tortoises.md",
+      "file_id": "016_kura_kura_balap.md"
+    },
+    "17": {
+      "en": "The torture option",
+      "id": "Pilihan Penyiksaan",
+      "file_en": "017_the_torture_option.md",
+      "file_id": "017_pilihan_penyiksaan.md"
+    },
+    "18": {
+      "en": "Rationality demands",
+      "id": "Tuntutan Rasionalitas",
+      "file_en": "018_rationality_demands.md",
+      "file_id": "018_tuntutan_rasionalitas.md"
+    },
+    "19": {
+      "en": "Bursting the soap bubble",
+      "id": "Meletuskan Gelembung Sabun",
+      "file_en": "019_bursting_the_soap_bubble.md",
+      "file_id": "019_meletuskan_gelembung_sabun.md"
+    },
+    "20": {
+      "en": "Condemned to life",
+      "id": "Divonis Menjalani Hidup",
+      "file_en": "020_condemned_to_life.md",
+      "file_id": "020_divonis_menjalani_hidup.md"
+    },
+    "21": {
+      "en": "Land of the Epiphens",
+      "id": "Negeri Kaum Epifen",
+      "file_en": "021_land_of_the_epiphens.md",
+      "file_id": "021_negeri_kaum_epifen.md"
+    },
+    "22": {
+      "en": "The lifeboat",
+      "id": "Sekoci Penyelamat",
+      "file_en": "022_the_lifeboat.md",
+      "file_id": "022_sekoci_penyelamat.md"
+    },
+    "23": {
+      "en": "The beetle in the box",
+      "id": "Kumbang dalam Kotak",
+      "file_en": "023_the_beetle_in_the_box.md",
+      "file_id": "023_kumbang_dalam_kotak.md"
+    },
+    "24": {
+      "en": "Squaring the circle",
+      "id": "Membujursangkarkan Lingkaran",
+      "file_en": "024_squaring_the_circle.md",
+      "file_id": "024_membujursangkarkan_lingkaran.md"
+    },
+    "25": {
+      "en": "Buridan’s an ass",
+      "id": "Keledai Buridan",
+      "file_en": "025_buridans_an_ass.md",
+      "file_id": "025_keledai_buridan.md"
+    },
+    "26": {
+      "en": "Pain’s remains",
+      "id": "Sisa-Sisa Rasa Sakit",
+      "file_en": "026_pains_remains.md",
+      "file_id": "026_sisa_sisa_rasa_sakit.md"
+    },
+    "27": {
+      "en": "Duties done",
+      "id": "Tugas yang Tertunaikan",
+      "file_en": "027_duties_done.md",
+      "file_id": "027_tugas_yang_tertunaikan.md"
+    },
+    "28": {
+      "en": "The nightmare scenario",
+      "id": "Skenario Mimpi Buruk",
+      "file_en": "028_the_nightmare_scenario.md",
+      "file_id": "028_skenario_mimpi_buruk.md"
+    },
+    "29": {
+      "en": "Life dependency",
+      "id": "Ketergantungan Hidup",
+      "file_en": "029_life_dependency.md",
+      "file_id": "029_ketergantungan_hidup.md"
+    },
+    "30": {
+      "en": "Memories are made of this",
+      "id": "Dari Sinilah Ingatan Terbuat",
+      "file_en": "030_memories_are_made_of_this.md",
+      "file_id": "030_dari_sinilah_ingatan_terbuat.md"
+    },
+    "31": {
+      "en": "Just so",
+      "id": "Memang Begitu Adanya",
+      "file_en": "031_just_so.md",
+      "file_id": "031_memang_begitu_adanya.md"
+    },
+    "32": {
+      "en": "Free Simone",
+      "id": "Bebaskan Simone",
+      "file_en": "032_free_simone.md",
+      "file_id": "032_bebaskan_simone.md"
+    },
+    "33": {
+      "en": "The free-speech booth",
+      "id": "Bilik Kebebasan Berbicara",
+      "file_en": "033_the_free_speech_booth.md",
+      "file_id": "033_bilik_kebebasan_berbicara.md"
+    },
+    "34": {
+      "en": "Don’t blame me",
+      "id": "Jangan Salahkan Aku",
+      "file_en": "034_dont_blame_me.md",
+      "file_id": "034_jangan_salahkan_aku.md"
+    },
+    "35": {
+      "en": "Last resort",
+      "id": "Upaya Terakhir",
+      "file_en": "035_last_resort.md",
+      "file_id": "035_upaya_terakhir.md"
+    },
+    "36": {
+      "en": "Pre-emptive justice",
+      "id": "Keadilan Pra-Emptif",
+      "file_en": "036_pre_emptive_justice.md",
+      "file_id": "036_keadilan_pra_emptif.md"
+    },
+    "37": {
+      "en": "Nature the artist",
+      "id": "Alam Sang Seniman",
+      "file_en": "037_nature_the_artist.md",
+      "file_id": "037_alam_sang_seniman.md"
+    },
+    "38": {
+      "en": "I am a brain",
+      "id": "Aku Adalah Otak",
+      "file_en": "038_i_am_a_brain.md",
+      "file_id": "038_aku_adalah_otak.md"
+    },
+    "39": {
+      "en": "The Chinese Room",
+      "id": "Kamar Bahasa Mandarin",
+      "file_en": "039_the_chinese_room.md",
+      "file_id": "039_kamar_bahasa_mandarin.md"
+    },
+    "40": {
+      "en": "The rocking-horse winner",
+      "id": "Pemenang di Atas Kuda Goyang",
+      "file_en": "040_the_rocking_horse_winner.md",
+      "file_id": "040_pemenang_di_atas_kuda_goyang.md"
+    },
+    "41": {
+      "en": "Getting the blues",
+      "id": "Meraba Warna Biru",
+      "file_en": "041_getting_the_blues.md",
+      "file_id": "041_meraba_warna_biru.md"
+    },
+    "42": {
+      "en": "Take the money and run",
+      "id": "Ambil Uangnya dan Lari",
+      "file_en": "042_take_the_money_and_run.md",
+      "file_id": "042_ambil_uangnya_dan_lari.md"
+    },
+    "43": {
+      "en": "Future shock",
+      "id": "Kejutan Masa Depan",
+      "file_en": "043_future_shock.md",
+      "file_id": "043_kejutan_masa_depan.md"
+    },
+    "44": {
+      "en": "Till death us do part",
+      "id": "Sampai Maut Memisahkan",
+      "file_en": "044_till_death_us_do_part.md",
+      "file_id": "044_sampai_maut_memisahkan.md"
+    },
+    "45": {
+      "en": "The invisible gardener",
+      "id": "Tukang Kebun Kasatmata",
+      "file_en": "045_the_invisible_gardener.md",
+      "file_id": "045_tukang_kebun_kasatmata.md"
+    },
+    "46": {
+      "en": "Amoebaesque",
+      "id": "Menyerupai Amuba",
+      "file_en": "046_amoebaesque.md",
+      "file_id": "046_menyerupai_amuba.md"
+    },
+    "47": {
+      "en": "Rabbit!",
+      "id": "Kelinci!",
+      "file_en": "047_rabbit.md",
+      "file_id": "047_kelinci.md"
+    },
+    "48": {
+      "en": "Evil genius",
+      "id": "Jenius yang Jahat",
+      "file_en": "048_evil_genius.md",
+      "file_id": "048_jenius_yang_jahat.md"
+    },
+    "49": {
+      "en": "The hole in the sum of the parts",
+      "id": "Celah di Balik Keseluruhan Bagian",
+      "file_en": "049_the_hole_in_the_sum_of_the_parts.md",
+      "file_id": "049_celah_di_balik_keseluruhan_bagian.md"
+    },
+    "50": {
+      "en": "The good bribe",
+      "id": "Suap yang Baik",
+      "file_en": "050_the_good_bribe.md",
+      "file_id": "050_suap_yang_baik.md"
+    },
+    "51": {
+      "en": "Living in a vat",
+      "id": "Hidup dalam Tong",
+      "file_en": "051_living_in_a_vat.md",
+      "file_id": "051_hidup_dalam_tong.md"
+    },
+    "52": {
+      "en": "More or less",
+      "id": "Lebih atau Kurang",
+      "file_en": "052_more_or_less.md",
+      "file_id": "052_lebih_atau_kurang.md"
+    },
+    "53": {
+      "en": "Double trouble",
+      "id": "Dilema Efek Ganda",
+      "file_en": "053_double_trouble.md",
+      "file_id": "053_dilema_efek_ganda.md"
+    },
+    "54": {
+      "en": "The elusive I",
+      "id": "Sang Aku yang Sukar Dipahami",
+      "file_en": "054_the_elusive_i.md",
+      "file_id": "054_sang_aku_yang_sukar_dipahami.md"
+    },
+    "55": {
+      "en": "Sustainable development",
+      "id": "Pembangunan Berkelanjutan",
+      "file_en": "055_sustainable_development.md",
+      "file_id": "055_pembangunan_berkelanjutan.md"
+    },
+    "56": {
+      "en": "The total perspective vortex",
+      "id": "Pusaran Perspektif Mutlak",
+      "file_en": "056_the_total_perspective_vortex.md",
+      "file_id": "056_pusaran_perspektif_mutlak.md"
+    },
+    "57": {
+      "en": "Eating Tiddles",
+      "id": "Memakan Tiddles",
+      "file_en": "057_eating_tiddles.md",
+      "file_id": "057_memakan_tiddles.md"
+    },
+    "58": {
+      "en": "Divine command",
+      "id": "Perintah Ilahi",
+      "file_en": "058_divine_command.md",
+      "file_id": "058_perintah_ilahi.md"
+    },
+    "59": {
+      "en": "The eyes have it",
+      "id": "Memandang Lewat Mata Orang Lain",
+      "file_en": "059_the_eyes_have_it.md",
+      "file_id": "059_memandang_lewat_mata_orang_lain.md"
+    },
+    "60": {
+      "en": "Do as I say, not as I do",
+      "id": "Ikuti Kata-Kataku, Jangan Perbuatanku",
+      "file_en": "060_do_as_i_say_not_as_i_do.md",
+      "file_id": "060_ikuti_kata_kataku_jangan_perbuatanku.md"
+    },
+    "61": {
+      "en": "Mozzarella moon",
+      "id": "Bulan Mozarela",
+      "file_en": "061_mozzarella_moon.md",
+      "file_id": "061_bulan_mozarela.md"
+    },
+    "62": {
+      "en": "I think, therefore?",
+      "id": "Aku Berpikir, Maka?",
+      "file_en": "062_i_think_therefore.md",
+      "file_id": "062_aku_berpikir_maka.md"
+    },
+    "63": {
+      "en": "No know",
+      "id": "Mengira Tahu Padahal Tidak",
+      "file_en": "063_no_know.md",
+      "file_id": "063_mengira_tahu_padahal_tidak.md"
+    },
+    "64": {
+      "en": "Nipping the bud",
+      "id": "Menumpas di Hulu",
+      "file_en": "064_nipping_the_bud.md",
+      "file_id": "064_menumpas_di_hulu.md"
+    },
+    "65": {
+      "en": "Soul power",
+      "id": "Kekuatan Jiwa",
+      "file_en": "065_soul_power.md",
+      "file_id": "065_kekuatan_jiwa.md"
+    },
+    "66": {
+      "en": "The forger",
+      "id": "Sang Pemalsu",
+      "file_en": "066_the_forger.md",
+      "file_id": "066_sang_pemalsu.md"
+    },
+    "67": {
+      "en": "The poppadom paradox",
+      "id": "Paradoks Papadam",
+      "file_en": "067_the_poppadom_paradox.md",
+      "file_id": "067_paradoks_papadam.md"
+    },
+    "68": {
+      "en": "Mad pain",
+      "id": "Rasa Sakit Orang Gila",
+      "file_en": "068_mad_pain.md",
+      "file_id": "068_rasa_sakit_orang_gila.md"
+    },
+    "69": {
+      "en": "The horror",
+      "id": "Kengerian yang Hakiki",
+      "file_en": "069_the_horror.md",
+      "file_id": "069_kengerian_yang_hakiki.md"
+    },
+    "70": {
+      "en": "An inspector calls",
+      "id": "Sang Inspektur Tiba",
+      "file_en": "070_an_inspector_calls.md",
+      "file_id": "070_sang_inspektur_tiba.md"
+    },
+    "71": {
+      "en": "Life support",
+      "id": "Penopang Hidup",
+      "file_en": "071_life_support.md",
+      "file_id": "071_penopang_hidup.md"
+    },
+    "72": {
+      "en": "Free Percy",
+      "id": "Bebaskan Percy",
+      "file_en": "072_free_percy.md",
+      "file_id": "072_bebaskan_percy.md"
+    },
+    "73": {
+      "en": "Being a bat",
+      "id": "Menjadi Seekor Kelelawar",
+      "file_en": "073_being_a_bat.md",
+      "file_id": "073_menjadi_seekor_kelelawar.md"
+    },
+    "74": {
+      "en": "Water, water, everywhere",
+      "id": "Air, Air, di Mana-Mana",
+      "file_en": "074_water_water_everywhere.md",
+      "file_id": "074_air_air_di_mana_mana.md"
+    },
+    "75": {
+      "en": "The ring of Gyges",
+      "id": "Cincin Gyges",
+      "file_en": "075_the_ring_of_gyges.md",
+      "file_id": "075_cincin_gyges.md"
+    },
+    "76": {
+      "en": "Net head",
+      "id": "Kepala Internet",
+      "file_en": "076_net_head.md",
+      "file_id": "076_kepala_internet.md"
+    },
+    "77": {
+      "en": "The scapegoat",
+      "id": "Kambing Hitam",
+      "file_en": "077_the_scapegoat.md",
+      "file_id": "077_kambing_hitam.md"
+    },
+    "78": {
+      "en": "Gambling on God",
+      "id": "Bertaruh Demi Tuhan",
+      "file_en": "078_gambling_on_god.md",
+      "file_id": "078_bertaruh_demi_tuhan.md"
+    },
+    "79": {
+      "en": "A Clockwork Orange",
+      "id": "Jeruk Mekanis",
+      "file_en": "079_a_clockwork_orange.md",
+      "file_id": "079_jeruk_mekanis.md"
+    },
+    "80": {
+      "en": "Hearts and heads",
+      "id": "Hati dan Nalar",
+      "file_en": "080_hearts_and_heads.md",
+      "file_id": "080_hati_dan_nalar.md"
+    },
+    "81": {
+      "en": "Sense and sensibility",
+      "id": "Persepsi dan Keberadaan",
+      "file_en": "081_sense_and_sensibility.md",
+      "file_id": "081_persepsi_dan_keberadaan.md"
+    },
+    "82": {
+      "en": "The freeloader",
+      "id": "Penumpang Gelap",
+      "file_en": "082_the_freeloader.md",
+      "file_id": "082_penumpang_gelap.md"
+    },
+    "83": {
+      "en": "The golden rule",
+      "id": "Kaidah Kencana",
+      "file_en": "083_the_golden_rule.md",
+      "file_id": "083_kaidah_kencana.md"
+    },
+    "84": {
+      "en": "The pleasure principle",
+      "id": "Prinsip Kesenangan",
+      "file_en": "084_the_pleasure_principle.md",
+      "file_id": "084_prinsip_kesenangan.md"
+    },
+    "85": {
+      "en": "The nowhere man",
+      "id": "Manusia yang Tak Pernah Ada",
+      "file_en": "085_the_nowhere_man.md",
+      "file_id": "085_manusia_yang_tak_pernah_ada.md"
+    },
+    "86": {
+      "en": "Art for art’s sake",
+      "id": "Seni demi Seni",
+      "file_en": "086_art_for_arts_sake.md",
+      "file_id": "086_seni_demi_seni.md"
+    },
+    "87": {
+      "en": "Fair inequality",
+      "id": "Ketimpangan yang Adil",
+      "file_en": "087_fair_inequality.md",
+      "file_id": "087_ketimpangan_yang_adil.md"
+    },
+    "88": {
+      "en": "Total lack of recall",
+      "id": "Hilang Ingatan Total",
+      "file_en": "088_total_lack_of_recall.md",
+      "file_id": "088_hilang_ingatan_total.md"
+    },
+    "89": {
+      "en": "Kill and let die",
+      "id": "Membunuh dan Membiarkan Mati",
+      "file_en": "089_kill_and_let_die.md",
+      "file_id": "089_membunuh_dan_membiarkan_mati.md"
+    },
+    "90": {
+      "en": "Something we know not what",
+      "id": "Sesuatu yang Tak Kita Pahami",
+      "file_en": "090_something_we_know_not_what.md",
+      "file_id": "090_sesuatu_yang_tak_kita_pahami.md"
+    },
+    "91": {
+      "en": "No one gets hurt",
+      "id": "Tak Ada yang Terluka",
+      "file_en": "091_no_one_gets_hurt.md",
+      "file_id": "091_tak_ada_yang_terluka.md"
+    },
+    "92": {
+      "en": "Autogovernment",
+      "id": "Pemerintahan Otomatis",
+      "file_en": "092_autogovernment.md",
+      "file_id": "092_pemerintahan_otomatis.md"
+    },
+    "93": {
+      "en": "Zombies",
+      "id": "Zombi",
+      "file_en": "093_zombies.md",
+      "file_id": "093_zombi.md"
+    },
+    "94": {
+      "en": "The Sorites tax",
+      "id": "Pajak Sorites",
+      "file_en": "094_the_sorites_tax.md",
+      "file_id": "094_pajak_sorites.md"
+    },
+    "95": {
+      "en": "The problem of evil",
+      "id": "Masalah Kejahatan",
+      "file_en": "095_the_problem_of_evil.md",
+      "file_id": "095_masalah_kejahatan.md"
+    },
+    "96": {
+      "en": "Family first",
+      "id": "Keluarga yang Utama",
+      "file_en": "096_family_first.md",
+      "file_id": "096_keluarga_yang_utama.md"
+    },
+    "97": {
+      "en": "Moral luck",
+      "id": "Keberuntungan Moral",
+      "file_en": "097_moral_luck.md",
+      "file_id": "097_keberuntungan_moral.md"
+    },
+    "98": {
+      "en": "The experience machine",
+      "id": "Mesin Pengalaman",
+      "file_en": "098_the_experience_machine.md",
+      "file_id": "098_mesin_pengalaman.md"
+    },
+    "99": {
+      "en": "Give peace a chance?",
+      "id": "Beri Perdamaian Kesempatan?",
+      "file_en": "099_give_peace_a_chance.md",
+      "file_id": "099_beri_perdamaian_kesempatan.md"
+    },
+    "100": {
+      "en": "The Nest café",
+      "id": "Kafe Sarang",
+      "file_en": "100_the_nest_cafe.md",
+      "file_id": "100_kafe_sarang.md"
+    }
+  },
+  "total_entries": 100,
+  "status": "complete"
+}

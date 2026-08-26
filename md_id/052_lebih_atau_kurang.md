@@ -1,0 +1,24 @@
+# 52. Lebih atau Kurang
+
+Carol memutuskan untuk menyumbangkan sebagian besar kekayaannya yang melimpah guna mengangkat taraf hidup warga di sebuah desa terpencil nan miskin di kawasan selatan Tanzania. Namun karena ia memiliki keraguan moral terhadap program pembatasan kelahiran (keluarga berencana), lembaga pembangunan yang bekerja sama dengannya menyodorkan dua opsi rancangan program. Rancangan pertama sama sekali tidak menyertakan elemen pengendalian kelahiran. Langkah ini diperkirakan akan meningkatkan populasi desa dari 100 menjadi 150 jiwa, sementara indeks mutu hidup (*quality of life*)—yang mengukur indikator objektif sekaligus subjektif—akan naik secara moderat dari rata-rata 2,4 menjadi 3,2. Rancangan kedua menyertakan program keluarga berencana sukarela tanpa paksaan. Dalam skenario ini, populasi warga akan dipertahankan stabil pada angka 100 jiwa, namun indeks mutu hidup rata-rata akan melonjak signifikan hingga menyentuh angka 4,0. Dengan asumsi bahwa hanya mereka yang memiliki mutu hidup pada skor 1,0 ke bawah yang memandang hidup mereka tidak layak dijalani sama sekali, rancangan pertama akan melahirkan *lebih banyak* manusia yang menikmati hidup bermakna dibanding rancangan kedua; sedangkan rancangan kedua menghasilkan *lebih sedikit* manusia, namun dengan tingkat kesejahteraan dan kepuasan hidup yang jauh lebih paripurna. Rencana manakah yang merupakan pemanfaatan terbaik dari dana amal Carol?
+
+**Sumber: Bagian 4 dari *Reasons and Persons* karya Derek Parfit (Oxford University Press, 1984)**
+
+Dilema yang dihadapi Carol bukan sekadar memilih antara mutu (*kualitas*) atau jumlah (*kuantitas*); sebab tatkala kita menggunakan indeks pengukuran kesejahteraan, kita sesungguhnya tengah mengukur kuantitas dari mutu itu sendiri. Dan persoalannya memang serumit kedengarannya.
+
+Tujuan moral apa yang sebenarnya hendak dicapai oleh Carol? Ada tiga jawaban yang masuk akal: Pertama, memperbanyak jumlah nyawa manusia yang layak dijalani. Kedua, memaksimalkan akumulasi total mutu kebahagiaan hidup. Ketiga, menciptakan tatanan hidup yang semaksimal mungkin paling bernilai dan memuaskan bagi individu yang ada.
+
+Mari kita bedah opsi pertama. Jelas bahwa program tanpa pengendalian kelahiran akan melahirkan lebih banyak jiwa yang hidupnya bermakna. Namun apakah ini hasil akhir yang paling ideal? Bila kita membenarkannya, kita akan terseret ke dalam kesimpulan yang absurd (*the repugnant conclusion*). Sebab jika setiap kehidupan di atas batas penderitaan ekstrem dipandang berharga, itu berarti kita berkewajiban moral melipatgandakan populasi bumi sebanyak mungkin—bahkan menjejalkan miliaran manusia baru—selama mutu hidup mereka tidak anjlok di bawah ambang batas minimal. Namun apakah benar-benar sebuah kebaikan bila kita melipatgandakan populasi suatu negeri hingga jatuh miskin papa murni demi menghadirkan lebih banyak nyawa ke dunia?
+
+Tujuan kedua adalah memperbesar *total akumulasi* poin mutu hidup. Di atas kertas matematika, rencana pertama kembali unggul: 150 jiwa masing-masing dengan skor mutu 3,2 menghasilkan total 480 poin, sementara 100 jiwa dengan skor mutu 4,0 hanya menghasilkan total 400 poin. Dari sudut kalkulasi total, rencana pertama menghadirkan kebaikan yang lebih banyak. Namun prinsip ini pun berujung pada kejanggalan: dengan logika yang sama, kita akan menganggap jauh lebih mulia mendatangkan 1.000 manusia sengsara dengan skor mutu hidup 1,1 (total 1.100 poin) daripada membahagiakan 100 manusia dengan tingkat kenikmatan maksimal bernilai 10 (total 1.000 poin).
+
+Hal ini menyisakan kemungkinan ketiga: ciptakanlah kondisi bagi bentuk kehidupan yang paling bermakna dan memuaskan, tanpa perlu terobsesi memaksimalkan jumlah kepala maupun total akumulasi skor. Jauh lebih baik memiliki lebih sedikit populasi yang benar-benar bahagia dan sejahtera ketimbang kerumunan raksasa manusia yang serba pas-pasan.
+
+Kendati kesimpulan ketiga terdengar paling bijak dan seimbang, ia membawa konsekuensi etis lain yang bagi sebagian orang terasa mengusik nurani. Sebab begitu kita menyatakan bahwa mendatangkan nyawa baru tidak memiliki nilai intrinsik tersendiri (sekalipun nyawa itu kelak layak hidup), maka potensi kehidupan di masa depan—seperti janin pada usia dini—tidak lagi memiliki status sakral istimewa. Fakta bahwa sebuah janin berpotensi tumbuh menjadi manusia bahagia di masa depan bukan lagi alasan moral yang mewajibkan kita untuk memastikan ia harus lahir. Bagi sebagian kalangan, konsekuensi ini dapat diterima dengan lapang dada; namun bagi mereka yang menolaknya, mereka wajib merenungkan kembali landasan nalar di balik penolakan tersebut.
+
+## Lihat Juga
+
+- [20. Divonis Menjalani Hidup](020_divonis_menjalani_hidup.md)
+- [84. Prinsip Kesenangan](084_prinsip_kesenangan.md)
+- [87. Ketimpangan yang Adil](087_ketimpangan_yang_adil.md)
+- [98. Mesin Pengalaman](098_mesin_pengalaman.md)

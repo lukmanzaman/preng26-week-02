@@ -1,0 +1,26 @@
+# 66. Sang Pemalsu
+
+Lukisan bertajuk *Deretan Pohon Poplar di Kala Fajar* (*Avenue of Poplars at Dawn*) siap dinobatkan ke dalam jajaran mahakarya Vincent van Gogh. Lukisan "temuan baru" yang sempat hilang ini diprediksi bakal terjual jutaan poundsterling di balai lelang ternama, sekaligus memicu terbitnya berjilid-jilid kajian akademis yang membandingkannya dengan dua lukisan van Gogh lain dengan lanskap serupa. Kabar sensasional ini tentu saja membuat Joris van den Berg tersenyum puas—sebab dialah, bukan van Gogh, yang melukis mahakarya tersebut. Joris adalah seorang maestro pemalsu lukisan ulung, dan ia sangat yakin karya terbarunya ini akan lolos uji autentikasi kurator dunia tanpa cela. Keberhasilan ini tidak hanya akan melipatgandakan pundi-pundi kekayaannya, melainkan juga memberinya kepuasan profesional yang luar biasa. Hanya segelintir sahabat karib yang mengetahui rahasia Joris. Salah seorang sahabat sempat mengungkapkan keberatan moral yang sangat mendalam, namun Joris hanya mengibaskan tangan seraya mencibir. Baginya, jika lukisan palsu buatannya dinilai para pakar memiliki keindahan estetika yang setara dengan lukisan asli van Gogh, maka karya itu layak dihargai setiap sen dari nominal yang dibayarkan kolektor. Dan siapa pun yang sudi membayar harga selangit murni hanya demi segores tanda tangan van Gogh, tak ubahnya orang dungu yang memang pantas dipisahkan dari uangnya.
+
+Tampaknya sangat gamblang bahwa memalsukan karya seni adalah profesi tercela, sebab di dalamnya niscaya terkandung dusta dan tipu muslihat. Seorang pemalsu hanya bisa sukses bila ia berhasil memperdaya publik mengenai asal-usul (*provenans*) karyanya.
+
+Kendati demikian, kedustaan tidak selalu layak dikutuk. Bahkan dalam situasi tertentu, kebohongan telanjang justru merupakan tuntutan moral yang luhur. Bila seorang gerombolan rasis bersenjata yang berniat membantai bertanya kepada Anda di mana letak rumah persembunyian kaum minoritas, tindakan paling bermoral yang wajib Anda ambil adalah pura-pura tidak tahu, bukan dengan jujur menunjukkannya ke rumah nomor 23. Maka tolok ukur hakiki dari sebuah dusta adalah apakah penipuan itu mengabdi pada tujuan mulia atau motif nista, serta bagaimana dampak konsekuensi yang ditimbulkannya bagi masyarakat luas.
+
+Motif sang pemalsu sekilas memang jauh dari kesan murni: yakni meraup kekayaan bagi dirinya sendiri. Namun, seniman asli yang paling terhormat sekalipun kerap berkarya dengan dorongan mencari nafkah, sehingga motif uang semata belum cukup untuk menuntaskan perdebatan etis ini. Kita perlu memandang fenomena pemalsuan seni dari kanvas pemikiran yang lebih luas.
+
+Kisah fiktif Joris van den Berg menyajikan sebuah argumen pembelaan yang cukup menggugah nurani. Bila dirumuskan secara elegan: sang pemalsu lukisan sesungguhnya tengah berjasa besar mengingatkan kita akan makna hakiki dari nilai sebuah seni, seraya menelanjangi kepalsuan pasar seni komersial yang telah menukar nilai-nilai estetika murni dengan nominal finansial yang vulgar.
+
+Poin kuncinya adalah bahwa seorang pemalsu hanya bisa berhasil melalui salah satu dari dua jalur: pertama, ia sanggup melahirkan karya yang mutu estetikanya benar-benar setara dengan sang maestro yang ia tiru; atau kedua, ia melahirkan karya semenjana yang dihargai mahal semata-mata karena dikira sebagai goresan tangan pelukis tersohor.
+
+Bila lukisan palsu tersebut terbukti benar-benar sama indahnya dengan karya asli sang maestro, mengapa lukisan itu tidak berhak diapresiasi setinggi karya aslinya? Dan bila lukisan tiruan itu ternyata mutunya lebih rendah, kita wajib bertanya secara kritis: mengapa para kolektor sudi membayar miliaran rupiah untuk barang berkualitas medioker? Jawabannya tak lain karena harga di pasar seni modern tidak lagi ditentukan oleh keagungan estetika, melainkan oleh tren mode, prestise reputasi, dan pemujaan selebritas. Tanda tangan van Gogh di pojok kanvas mendongkrak harga lukisan dengan cara yang sama persis seperti nama David Beckham melipatgandakan harga sehelai kaus sepak bola.
+
+Jika kenyataan industri seni memang sedemikian bobrok, sungguh menggelikan bila para kurator berkoar-koar menuduh karya pemalsu telah "menodai kemurnian seni". Dari kacamata ini, sang pemalsu tak ubahnya seorang pejuang gerilya seni (*guerrilla artist*) yang berjuang mengembalikan martabat kreativitas sejati di tengah kebudayaan pasar yang telah mendegradasi karya seni menjadi sekadar komoditas investasi borjuis.
+
+Memang benar ia adalah seorang penipu. Namun tidak ada perang gerilya yang dimenangkan lewat pertempuran terbuka. Sistem pasar yang munafik harus dibongkar dan digembosi dari dalam, lapis demi lapis. Dan perang revolusi seni itu baru akan benar-benar dimenangkan tatkala setiap karya seni di muka bumi dinilai murni berdasarkan keindahan intrinsik karyanya sendiri, bukan berdasarkan goresan tanda tangan di sudut bingkainya. Kecuali, tentu saja, bila ada orang yang sanggup memberikan argumen rasional mengapa segores tanda tangan di pojok kanvas benar-benar memiliki nilai sakral…
+
+## Lihat Juga
+
+- [12. Picasso di Pantai](012_picasso_di_pantai.md)
+- [37. Alam Sang Seniman](037_alam_sang_seniman.md)
+- [48. Jenius yang Jahat](048_jenius_yang_jahat.md)
+- [86. Seni demi Seni](086_seni_demi_seni.md)

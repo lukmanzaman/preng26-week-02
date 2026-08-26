@@ -1,0 +1,26 @@
+# 65. Kekuatan Jiwa
+
+Sejak kecil, Faith selalu percaya pada konsep reinkarnasi. Namun akhir-akhir ini ketertarikannya pada kehidupan masa lalunya kian menggebu. Semenjak rutin berkonsultasi kepada seorang cenayang mistis bernama Marjorie, untuk pertama kalinya Faith memperoleh gambaran mendetail tentang rupa kehidupannya di masa lampau. Sebagian besar kisah yang dituturkan Marjorie berkisar pada reinkarnasi Faith sebagai Zosime, seorang putri bangsawan yang hidup pada zaman Perang Troya. Faith menyimak dengan takjub kisah pelarian Zosime yang penuh keberanian menuju Smyrna lalu berlabuh di Knossos. Zosime digambarkan sebagai sosok jelita nan pemberani, yang jatuh cinta pada seorang panglima perang Sparta dan hidup bahagia bersamanya di Knossos hingga akhir hayat. Faith tidak merasa perlu membuka buku sejarah Yunani Kuno untuk memverifikasi kebenaran dongeng Marjorie. Ia tidak meragukan sedikit pun bahwa jiwa yang bersemayam di dalam raganya saat ini adalah jiwa yang sama persis yang dahulu mendiami tubuh Zosime. Namun ada satu keraguan filosofis yang terus mengganjal di benaknya: betapa pun ia menikmati khayalan menjadi putri bangsawan Yunani yang memesona, kenyataan bahwa ia sama sekali tidak mengingat sepotong pun memori hidup di Knossos atau tidak merasakan ikatan batin sedikit pun dengan sosok yang diceritakan Marjorie, membuatnya gagal memahami bagaimana mungkin dirinya dan Zosime adalah "orang yang sama". Ia telah menemukan kisah tentang kehidupan masa lalunya, namun kisah itu sama sekali tidak terasa sebagai hidupnya.
+
+**Sumber: Buku II, Bab XXVII dari *An Essay Concerning Human Understanding* karya John Locke (edisi ke-5, 1706)**
+
+Banyak orang di berbagai belahan dunia memercayai aneka bentuk reinkarnasi atau kelahiran kembali jiwa. Tentu ada berlimpah alasan ilmiah untuk meragukan keabsahan keyakinan tersebut. Namun mari kita mengandaikan bahwa jiwa manusia memang benar-benar ada dan terus mengalami reinkarnasi berulang kali. Konsekuensi apa yang sebenarnya mengalir dari pengandaian ini?
+
+Inilah teka-teki mendalam yang tengah digeluti oleh Faith. Terlepas dari aroma kecurigaan atas dongeng yang disampaikan sang cenayang—mengapa ingatan masa lalu orang-orang selalu berupa sosok pahlawan hebat nan memesona, dan bukan rakyat jelata yang mati kelaparan?—Faith tidak memperdebatkan kebenaran faktanya. Pertanyaan kritis yang ia ajukan adalah: seandainya saya memang memiliki substansi jiwa yang sama dengan Zosime, apakah itu serta-merta menjadikan saya *orang yang sama* (*the same person*) dengan dirinya?
+
+Secara intuitif, Faith menjawab "tidak". Ia tidak merasakan ikatan identitas pribadi sedikit pun dengan Zosime. Dan reaksi ini sangatlah wajar.
+
+Tatkala kita menoleh ke masa lalu diri kita sendiri, apa yang memberi kita rasa kepastian bahwa kita adalah orang yang sama dengan diri kita bertahun-tahun silam adalah adanya derajat *keterhubungan dan kesinambungan psikologis* (*psychological connectedness and continuity*). Kita mengingat rasanya menjadi sosok itu, mengingat peristiwa yang dialaminya, meyakini nilai-nilai yang ia pegang, dan kita memahami bagaimana diri kita hari ini tumbuh secara bertahap dari sosok masa lalu tersebut.
+
+Bila jiwa kita pernah mendiami tubuh manusia lain dalam kehidupan sebelum ini, kita sama sekali tidak memiliki jalinan kesinambungan psikologis semacam itu dengan mereka. Marjorie harus menceritakan kepada Faith apa yang dipikirkan dan diperbuat Zosime, sebab Faith sendiri tidak memiliki secuil pun memori batiniah tentang pengalaman Zosime; ia juga tidak merasa dirinya tumbuh dari Zosime. Tanpa adanya jembatan psikologis ini, bagaimana mungkin masuk akal untuk menyatakan bahwa Zosime dan Faith adalah orang yang sama, sekalipun keduanya berbagi partikel jiwa immaterial yang identik?
+
+Jika alur penalaran John Locke ini benar, maka andaikata jiwa kita memang mampu bertahan melampaui kematian biologis, hal itu *belum tentu* berarti bahwa *diri kita* (*the self*) akan bertahan hidup melampaui kematian raga. Kelangsungan hidup sang diri bertumpu pada kesinambungan memori dan psikologis, bukan pada keabadian substansi zat metafisik yang misterius. Keberlangsungan zat jiwa tidak lebih menjamin kelangsungan hidup jati diri manusia sebagaimana bertahannya organ jantung donor di tubuh penerima tidak menjadikan si penerima sebagai pemilik jantung yang lama.
+
+Namun renungkanlah analogi yang lebih dekat: tatkala Anda menatap foto diri Anda semasa masih bayi merah. Demi mengetahui seperti apa watak bayi itu dahulu, Anda terpaksa bertanya kepada orang dewasa yang merawat Anda dan mengingat masa itu. "Dulu aku seperti apa?" tanya Anda kepada mereka—persis seperti Faith bertanya kepada sang cenayang, "Dulu aku seperti apa saat di Troya?" Jalinan ingatan psikologis Anda dengan sosok bayi mungil di foto itu mungkin sudah terputus total hingga nyaris nihil. Apakah ini berarti, dalam makna yang sangat riil, diri Anda hari ini sesungguhnya bukan lagi orang yang sama dengan bayi tersebut, persis sebagaimana Faith bukan lagi Zosime?
+
+## Lihat Juga
+
+- [2. Pindahkan Aku…](002_pindahkan_aku.md)
+- [38. Aku Adalah Otak](038_aku_adalah_otak.md)
+- [54. Sang Aku yang Sukar Dipahami](054_sang_aku_yang_sukar_dipahami.md)
+- [88. Hilang Ingatan Total](088_hilang_ingatan_total.md)

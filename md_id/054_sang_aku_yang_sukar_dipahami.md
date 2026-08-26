@@ -1,0 +1,24 @@
+# 54. Sang Aku yang Sukar Dipahami
+
+Inilah sebuah eksperimen kecil yang bisa Anda coba sendiri di rumah. Atau di dalam bus kota, bila Anda mau. Anda bisa melakukannya dengan mata terpejam maupun terbuka, di dalam keheningan kamar tidur atau di tengah bisingnya jalan raya. Yang perlu Anda lakukan hanyalah satu hal: temukanlah jati diri Anda sendiri. Maksud saya bukan berdiri lalu menyebutkan nama lengkap Anda. Maksud saya: tangkaplah entitas hakiki yang merupakan "diri Anda", bukan sekadar apa yang Anda lakukan atau hal-hal yang Anda alami. Demi melakukannya, pusatkan seluruh perhatian Anda ke dalam batin. Cobalah lacak di dalam kesadaran Anda sosok "Sang Aku" yang menjadi diri Anda—sosok subjek yang tengah merasakan hawa panas atau dingin, yang memikirkan untaian pikiran Anda, yang mendengar deru suara di sekeliling Anda, dan seterusnya. Saya tidak meminta Anda melacak rasa, sensasi, atau pikiran itu sendiri, melainkan *sosok sang diri* yang sedang mengalaminya. Mestinya ini sangat mudah. Bagaimanapun, hal apa di muka bumi ini yang lebih pasti daripada kenyataan bahwa diri Anda nyata ada? Sekalipun segala sesuatu di sekitar Anda hanyalah mimpi atau ilusi maya, Anda pastilah ada demi mengalami mimpi tersebut atau demi berhalusinasi. Maka bila Anda mengarahkan pandangan batin ke dalam dan berusaha menyadari murni diri Anda sendiri, tak butuh waktu lama untuk menemukannya. Silakan. Cobalah sekarang. Berhasilkah Anda?
+
+**Sumber: Buku I dari *A Treatise of Human Nature* karya David Hume (1739–1740)**
+
+Akui sajalah: Anda telah gagal. Anda mencari satu hal yang selama ini Anda anggap selalu ada di sana, namun Anda tak menemukan apa-apa selain kekosongan. Apa artinya ini? Apakah ini membuktikan bahwa diri Anda sesungguhnya tidak ada?
+
+Mari kita perjelas apa yang sebenarnya Anda temukan saat memejamkan mata tadi. Begitu Anda menyadari sesuatu, hal itu pastilah berupa suatu objek pengalaman yang sangat spesifik: kilasan pikiran, gejolak emosi, sensasi gatal, desau angin, atau aroma kopi. Namun tak satu pun dari pengalaman itu menyingkap sosok "diri Anda" sebagai entitas tersendiri. Anda dapat mendeskripsikan setiap kepingan pengalaman yang Anda rasakan, tetapi tidak sanggup mendeskripsikan sang "Aku" yang merasakannya.
+
+Namun Anda mungkin memprotes: bagaimana mungkin saya tidak menyadari bahwa *sayalah* yang mengalami semua itu? Misalnya, memang benar tatkala saya menatap buku di hadapan saya, yang tertangkap oleh kesadaran saya adalah wujud buku tersebut dan bukan diri saya. Tetapi dalam pengertian lain, saya sadar betul bahwa sayalah yang sedang melihat buku itu. Mustahil memisahkan diri saya dari pengalaman melihat tersebut; itulah sebabnya tidak ada kesadaran terpisah akan "Sang Aku", melainkan kesadaran akan apa yang sedang saya saksikan. Namun hal itu bukan berarti "Sang Aku" bisa dihapus begitu saja dari persamaan, bukan?
+
+Pembelaan itu terdengar meyakinkan, namun tetap menyisakan masalah mendasar: "Sang Aku" tersebut sesungguhnya hanyalah sebuah kekosongan tanpa substansi. Ia tak ubahnya sudut pandang (*titik perspektif*) dari mana sebuah lukisan pemandangan digoreskan. Dalam satu sisi, sudut pandang itu mustahil dihilangkan dari lukisan—sebab lukisan itu menampilkan pemandangan dari perspektif tertentu, yang tanpanya lukisan tak akan pernah terwujud. Namun sudut pandang itu sendiri tidak pernah terlukis di atas kanvas. Bagi pengamat luar, titik pandang itu bisa berupa bukit berumput, mobil yang terparkir, atau gedung beton bertingkat.
+
+Sang diri yang mengalami pengalaman dapat dipahami dengan cara yang sama persis. Tatkala saya menatap buku di hadapan saya, saya memang sadar bahwa ada pengalaman visual dari sudut pandang tertentu. Namun pengalaman itu sama sekali tidak menyingkap hakikat materi dari sudut pandang tersebut. "Sang Aku" dengan demikian tetaplah sebuah kekosongan hampa—titik pusat tanpa isi tempat aneka pengalaman beterbangan laksana kawanan kupu-kupu.
+
+Menurut pandangan empirisme David Hume ini, jika kita bertanya apakah hakikat dari sang "diri", jawabannya adalah: ia tak lebih dari kumpulan berkas (*bundle*) seluruh persepsi dan pengalaman yang saling terangkai karena berbagi satu sudut pandang yang sama. Diri bukanlah sebuah benda padat mandiri, dan ia jelas tidak dapat diketahui oleh dirinya sendiri. Kita tidak memiliki kesadaran tentang *apa* jati diri kita; kita hanya memiliki kesadaran tentang *apa yang kita alami*. Ini bukan berarti kita tidak ada, melainkan bahwa kita tidak memiliki inti keberadaan yang abadi dan tak berubah—sebuah entitas jiwa tunggal langgeng melintasi waktu yang selama ini secara keliru kita anggap sebagai fondasi identitas pribadi kita.
+
+## Lihat Juga
+
+- [56. Pusaran Perspektif Mutlak](056_pusaran_perspektif_mutlak.md)
+- [62. Aku Berpikir, Maka?](062_aku_berpikir_maka.md)
+- [65. Kekuatan Jiwa](065_kekuatan_jiwa.md)
+- [88. Hilang Ingatan Total](088_hilang_ingatan_total.md)
