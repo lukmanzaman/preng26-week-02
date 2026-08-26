@@ -1,6 +1,6 @@
-# The Pig That Wants to Be Eaten (100 Eksperimen Pikiran Julian Baggini)
+# Babi yang Ingin Dimakan (100 Eksperimen Pikiran Julian Baggini)
 
-Repositori ini memuat korpus lengkap **100 Eksperimen Pikiran Filosofis** dari buku karya Julian Baggini (*The Pig That Wants to Be Eaten: And Ninety-Nine Other Thought Experiments*), lengkap dengan terjemahan bahasa Indonesia berkualitas sastra tinggi (*high literacy*) dan aplikasi web eksplorasi interaktif.
+Website interaktif dan korpus lengkap **100 Eksperimen Pikiran Filosofis** dari buku karya Julian Baggini (*The Pig That Wants to Be Eaten: And Ninety-Nine Other Thought Experiments*) dalam bahasa Indonesia berkualitas sastra tinggi (*high literacy*).
 
 ---
 
@@ -24,15 +24,12 @@ Aplikasi web interaktif dirancang dengan estetika editorial *avant-garde* tanpa 
 ├── style.css             # Lembar gaya tata letak editorial
 ├── app.js                # Logika router, kanvas konstelasi, dan polling
 ├── data.js               # Basis data terstruktur 100 eksperimen pikiran (ID)
-├── md_id/                # Korpus 100 berkas terjemahan Bahasa Indonesia
-│   ├── INDEX.md          # Daftar isi lengkap & kata pengantar terjemahan
-│   ├── STYLE_GUIDE.md    # Panduan baku mutu prosa sastra (high literacy)
-│   ├── manifest.json     # Kontrak istilah glosarium & pemetaan judul
-│   ├── progress.json     # Pelacakan status pengerjaan (state machine)
-│   └── 001_iblis_jahat.md ... 100_kafe_sarang.md
-├── md/                   # Korpus 100 berkas Markdown naskah asli Bahasa Inggris
-├── Baginni_pig.txt       # Teks penuh hasil konversi PDF
-└── Baginni pig.pdf       # Dokumen sumber asli
+└── md_id/                # Korpus 100 berkas terjemahan Bahasa Indonesia
+    ├── INDEX.md          # Daftar isi lengkap & kata pengantar terjemahan
+    ├── STYLE_GUIDE.md    # Panduan baku mutu prosa sastra (high literacy)
+    ├── manifest.json     # Kontrak istilah glosarium & pemetaan judul
+    ├── progress.json     # Pelacakan status pengerjaan (state machine)
+    └── 001_iblis_jahat.md ... 100_kafe_sarang.md
 ```
 
 ---
