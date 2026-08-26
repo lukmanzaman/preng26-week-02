@@ -44,7 +44,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "001_iblis_jahat.md"
+    "file": "001_iblis_jahat.md",
+    "quiz": {
+      "question": "Apa inti kesimpulan filosofis dari eksperimen 'Iblis Jahat' karya René Descartes?",
+      "options": [
+        {
+          "text": "Pengalaman indrawi dan dunia fisik dapat diragukan, namun kemampuan nalar dan eksistensi diri yang meragu tidak dapat disangkal.",
+          "isCorrect": true,
+          "explanation": "Tepat! Untuk bisa tertipu atau meragukan segala sesuatu, harus ada entitas yang sedang berpikir dan meragu (dasar dari Cogito Ergo Sum)."
+        },
+        {
+          "text": "Manusia pasti sedang hidup dalam simulasi komputer atau mimpi abadi.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Descartes tidak bermaksud menyatakan kita pasti bermimpi, melainkan menguji batas skeptisisme radikal terhadap pengetahuan kita."
+        },
+        {
+          "text": "Logika matematika tidak berguna dalam mencari kepastian hidup.",
+          "isCorrect": false,
+          "explanation": "Salah. Descartes justru mencari fondasi kepastian mutlak yang melandasi seluruh sains dan matematika."
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -91,7 +111,27 @@ const EXPERIMENTS_DATA = [
         "file": "088_hilang_ingatan_total.md"
       }
     ],
-    "file": "002_pindahkan_aku.md"
+    "file": "002_pindahkan_aku.md",
+    "quiz": {
+      "question": "Dalam eksperimen 'Pindahkan Aku…' (Teletransporter), masalah filosofis apa yang menjadi fokus utama?",
+      "options": [
+        {
+          "text": "Kecanggihan teknologi masa depan dalam mengatasi jarak antarantariksa.",
+          "isCorrect": false,
+          "explanation": "Salah. Ini adalah eksperimen pikiran tentang identitas diri, bukan prediksi teknologi sains fiksi."
+        },
+        {
+          "text": "Apakah kelangsungan identitas personal mensyaratkan kelangsungan raga fisik yang sama, atau cukup kesinambungan psikologis.",
+          "isCorrect": true,
+          "explanation": "Tepat! Derek Parfit mengajak kita merenungkan apakah duplikasi atomik yang sempurna sudah cukup menjadi 'diri kita' ataukah diri kita telah tewas."
+        },
+        {
+          "text": "Hukum pidana tentang pembunuhan tidak berlaku di planet Mars.",
+          "isCorrect": false,
+          "explanation": "Salah. Gugatan hukum dalam cerita hanyalah pemantik untuk memicu perenungan metafisika identitas personal."
+        }
+      ]
+    }
   },
   {
     "id": 3,
@@ -139,7 +179,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "003_orang_india_dan_es.md"
+    "file": "003_orang_india_dan_es.md",
+    "quiz": {
+      "question": "Berdasarkan argumen David Hume dalam 'Orang India dan Es', mengapa Dhara Gupta bersikap rasional saat menolak cerita sepupunya?",
+      "options": [
+        {
+          "text": "Karena secara induktif, kesaksian satu orang tidak cukup kuat untuk meruntuhkan akumulasi pengalaman seumur hidup tentang hukum alam cair.",
+          "isCorrect": true,
+          "explanation": "Tepat! Menurut Hume, orang bijak menyelaraskan keyakinannya dengan proporsi bukti. Menolak klaim ajaib yang bertentangan dengan seluruh pengalaman hidup adalah sikap ilmiah yang rasional."
+        },
+        {
+          "text": "Karena sepupunya terbukti sering berbohong tentang perjalanan jauhnya.",
+          "isCorrect": false,
+          "explanation": "Salah. Kisah tidak menyebutkan sepupunya pembohong, melainkan menyoroti keterbatasan justifikasi empiris atas kesaksian tunggal."
+        },
+        {
+          "text": "Karena air memang secara fisik tidak pernah bisa membeku menjadi padat.",
+          "isCorrect": false,
+          "explanation": "Salah. Es itu nyata, namun dari sudut pandang epistemologis Dhara yang belum pernah melihat es, skeptisismenya beralasan."
+        }
+      ]
+    }
   },
   {
     "id": 4,
@@ -185,7 +245,27 @@ const EXPERIMENTS_DATA = [
         "file": "096_keluarga_yang_utama.md"
       }
     ],
-    "file": "004_selingkuh_digital.md"
+    "file": "004_selingkuh_digital.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Selingkuh Digital'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Selingkuh Digital', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika relasi & kesetiaan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 5,
@@ -234,7 +314,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "005_babi_yang_ingin_dimakan.md"
+    "file": "005_babi_yang_ingin_dimakan.md",
+    "quiz": {
+      "question": "Mengapa skenario 'Babi yang Ingin Dimakan' (Priscilla) menguji konsistensi argumen kaum vegetarian?",
+      "options": [
+        {
+          "text": "Karena jika keberatan utama makan daging adalah 'penderitaan dan pelanggaran hak hidup hewan', hewan yang bahagia dan ingin dimakan menggugurkan kedua alasan tersebut.",
+          "isCorrect": true,
+          "explanation": "Tepat! Eksperimen ini membedah apakah pantangan makan daging berakar pada prinsip pencegahan derita, atau sekadar rasa jijik naluriah (*yuck factor*)."
+        },
+        {
+          "text": "Karena rekayasa genetika pada hewan terbukti selalu menguntungkan industri peternakan.",
+          "isCorrect": false,
+          "explanation": "Salah. Fokusnya adalah etika konsumsi hewan dan moralitas preferensi subjektif makhluk hidup."
+        },
+        {
+          "text": "Karena babi yang bisa berbicara memiliki status hukum setara manusia.",
+          "isCorrect": false,
+          "explanation": "Salah. Pertanyaan intinya tetap pada legitimasi moral membunuh makhluk yang memang ingin dikonsumsi."
+        }
+      ]
+    }
   },
   {
     "id": 6,
@@ -277,7 +377,27 @@ const EXPERIMENTS_DATA = [
         "file": "094_pajak_sorites.md"
       }
     ],
-    "file": "006_roda_keberuntungan.md"
+    "file": "006_roda_keberuntungan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Roda Keberuntungan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Roda Keberuntungan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar probabilitas & kekeliruan penjudi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 7,
@@ -323,7 +443,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "007_ketika_tak_ada_yang_menang.md"
+    "file": "007_ketika_tak_ada_yang_menang.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Ketika Tak Ada yang Menang'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Ketika Tak Ada yang Menang', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar dilema moral & kejahatan perang hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 8,
@@ -376,7 +516,27 @@ const EXPERIMENTS_DATA = [
         "file": "095_masalah_kejahatan.md"
       }
     ],
-    "file": "008_tuhan_yang_baik.md"
+    "file": "008_tuhan_yang_baik.md",
+    "quiz": {
+      "question": "Apa inti dari 'Dilema Euthyphro' karya Plato dalam eksperimen 'Tuhan yang Baik'?",
+      "options": [
+        {
+          "text": "Apakah sesuatu bernilai baik karena diperintahkan Tuhan, ataukah Tuhan memerintahkannya karena hal itu memang sudah pada dasarnya baik.",
+          "isCorrect": true,
+          "explanation": "Tepat! Dilema ini menunjukkan bahwa jika kebaikan mendahului perintah Tuhan, moralitas bersifat independen dari agama; jika kebaikan semata kehendak Tuhan, moralitas menjadi arbitrer."
+        },
+        {
+          "text": "Membuktikan bahwa tuhan politeistik Yunani kuno lebih unggul dari monoteisme.",
+          "isCorrect": false,
+          "explanation": "Salah. Ini adalah perdebatan meta-etika tentang fondasi ontologis dari nilai moral dan kebajikan."
+        },
+        {
+          "text": "Bahwa orang ateis tidak mungkin memiliki pedoman moral yang baik.",
+          "isCorrect": false,
+          "explanation": "Salah. Argumen ini justru kerap dipakai untuk menjelaskan kemungkinan moralitas sekuler yang objektif."
+        }
+      ]
+    }
   },
   {
     "id": 9,
@@ -425,7 +585,27 @@ const EXPERIMENTS_DATA = [
         "file": "092_pemerintahan_otomatis.md"
       }
     ],
-    "file": "009_pengawas_maha_besar.md"
+    "file": "009_pengawas_maha_besar.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pengawas Maha Besar'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pengawas Maha Besar', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar determinisme & kehendak bebas hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 10,
@@ -473,7 +653,27 @@ const EXPERIMENTS_DATA = [
         "file": "100_kafe_sarang.md"
       }
     ],
-    "file": "010_selubung_ketidaktahuan.md"
+    "file": "010_selubung_ketidaktahuan.md",
+    "quiz": {
+      "question": "Mengapa John Rawls mengusulkan pengambilan keputusan di balik 'Selubung Ketidaktahuan' (*Veil of Ignorance*)?",
+      "options": [
+        {
+          "text": "Agar warga negara tidak mengetahui rahasia pertahanan militer negara.",
+          "isCorrect": false,
+          "explanation": "Salah. 'Selubung' adalah metafora etika politik, bukan kerahasiaan intelijen."
+        },
+        {
+          "text": "Untuk menghilangkan bias kepentingan pribadi, sehingga aturan keadilan dirancang demi melindungi posisi yang paling rentan (prinsip maksimin).",
+          "isCorrect": true,
+          "explanation": "Tepat! Tanpa tahu apakah kita akan lahir pintar/bodoh, kaya/miskin, kita secara rasional akan memilih sistem yang adil dan menjamin hak kelompok terbawah."
+        },
+        {
+          "text": "Agar semua orang di masyarakat menerima jumlah upah dan pekerjaan yang sama persis tanpa insentif.",
+          "isCorrect": false,
+          "explanation": "Salah. Rawls tetap mengizinkan ketimpangan pendapatan asalkan ketimpangan itu memberi manfaat maksimal bagi yang paling tertinggal (*Difference Principle*)."
+        }
+      ]
+    }
   },
   {
     "id": 11,
@@ -522,7 +722,27 @@ const EXPERIMENTS_DATA = [
         "file": "074_air_air_di_mana_mana.md"
       }
     ],
-    "file": "011_kapal_theseus.md"
+    "file": "011_kapal_theseus.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kapal Theseus'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kapal Theseus', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar identitas objek & kapal theseus hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 12,
@@ -571,7 +791,27 @@ const EXPERIMENTS_DATA = [
         "file": "086_seni_demi_seni.md"
       }
     ],
-    "file": "012_picasso_di_pantai.md"
+    "file": "012_picasso_di_pantai.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Picasso di Pantai'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Picasso di Pantai', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar estetika & nilai karya seni hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 13,
@@ -621,7 +861,27 @@ const EXPERIMENTS_DATA = [
         "file": "073_menjadi_seekor_kelelawar.md"
       }
     ],
-    "file": "013_hitam_putih_dan_merah_di_mana_mana.md"
+    "file": "013_hitam_putih_dan_merah_di_mana_mana.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Hitam, Putih, dan Merah di Mana-Mana'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Hitam, Putih, dan Merah di Mana-Mana', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar persepsi & kualia hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 14,
@@ -669,7 +929,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "014_kekeliruan_bank_yang_menguntungkan_anda.md"
+    "file": "014_kekeliruan_bank_yang_menguntungkan_anda.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kekeliruan Bank yang Menguntungkan Anda'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kekeliruan Bank yang Menguntungkan Anda', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar integritas & kejujuran hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 15,
@@ -717,7 +997,27 @@ const EXPERIMENTS_DATA = [
         "file": "089_membunuh_dan_membiarkan_mati.md"
       }
     ],
-    "file": "015_kepahlawanan_biasa.md"
+    "file": "015_kepahlawanan_biasa.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kepahlawanan Biasa'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kepahlawanan Biasa', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kewajiban vs kepahlawanan (supererogatori) hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 16,
@@ -763,7 +1063,27 @@ const EXPERIMENTS_DATA = [
         "file": "094_pajak_sorites.md"
       }
     ],
-    "file": "016_kura_kura_balap.md"
+    "file": "016_kura_kura_balap.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kura-Kura Balap'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kura-Kura Balap', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar paradoks gerak zeno hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 17,
@@ -809,7 +1129,27 @@ const EXPERIMENTS_DATA = [
         "file": "079_jeruk_mekanis.md"
       }
     ],
-    "file": "017_pilihan_penyiksaan.md"
+    "file": "017_pilihan_penyiksaan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pilihan Penyiksaan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pilihan Penyiksaan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar utilitarianisme & penyiksaan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 18,
@@ -855,7 +1195,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "018_tuntutan_rasionalitas.md"
+    "file": "018_tuntutan_rasionalitas.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Tuntutan Rasionalitas'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Tuntutan Rasionalitas', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar rasionalitas kolektif & pilihan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 19,
@@ -903,7 +1263,27 @@ const EXPERIMENTS_DATA = [
         "file": "061_bulan_mozarela.md"
       }
     ],
-    "file": "019_meletuskan_gelembung_sabun.md"
+    "file": "019_meletuskan_gelembung_sabun.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Meletuskan Gelembung Sabun'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Meletuskan Gelembung Sabun', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar platonisme & hakikat angka hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 20,
@@ -952,7 +1332,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "020_divonis_menjalani_hidup.md"
+    "file": "020_divonis_menjalani_hidup.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Divonis Menjalani Hidup'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Divonis Menjalani Hidup', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar keabadian & nilai hidup hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 21,
@@ -1002,7 +1402,27 @@ const EXPERIMENTS_DATA = [
         "file": "068_rasa_sakit_orang_gila.md"
       }
     ],
-    "file": "021_negeri_kaum_epifen.md"
+    "file": "021_negeri_kaum_epifen.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Negeri Kaum Epifen'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Negeri Kaum Epifen', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar masalah jiwa-raga & epifenomenalisme hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 22,
@@ -1054,7 +1474,27 @@ const EXPERIMENTS_DATA = [
         "file": "100_kafe_sarang.md"
       }
     ],
-    "file": "022_sekoci_penyelamat.md"
+    "file": "022_sekoci_penyelamat.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sekoci Penyelamat'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sekoci Penyelamat', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika global & sekoci penyelamat hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 23,
@@ -1106,7 +1546,27 @@ const EXPERIMENTS_DATA = [
         "file": "085_manusia_yang_tak_pernah_ada.md"
       }
     ],
-    "file": "023_kumbang_dalam_kotak.md"
+    "file": "023_kumbang_dalam_kotak.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kumbang dalam Kotak'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kumbang dalam Kotak', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar bahasa pikiran & ruang privat hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 24,
@@ -1160,7 +1620,27 @@ const EXPERIMENTS_DATA = [
         "file": "095_masalah_kejahatan.md"
       }
     ],
-    "file": "024_membujursangkarkan_lingkaran.md"
+    "file": "024_membujursangkarkan_lingkaran.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Membujursangkarkan Lingkaran'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Membujursangkarkan Lingkaran', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kemahakuasaan tuhan & logika hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 25,
@@ -1210,7 +1690,27 @@ const EXPERIMENTS_DATA = [
         "file": "094_pajak_sorites.md"
       }
     ],
-    "file": "025_keledai_buridan.md"
+    "file": "025_keledai_buridan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Keledai Buridan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Keledai Buridan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kehendak bebas & keledai buridan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 26,
@@ -1261,7 +1761,27 @@ const EXPERIMENTS_DATA = [
         "file": "068_rasa_sakit_orang_gila.md"
       }
     ],
-    "file": "026_sisa_sisa_rasa_sakit.md"
+    "file": "026_sisa_sisa_rasa_sakit.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sisa-Sisa Rasa Sakit'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sisa-Sisa Rasa Sakit', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar utilitarianisme & rasa sakit hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 27,
@@ -1314,7 +1834,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "027_tugas_yang_tertunaikan.md"
+    "file": "027_tugas_yang_tertunaikan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Tugas yang Tertunaikan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Tugas yang Tertunaikan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar deontologi & motif kewajiban hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 28,
@@ -1367,7 +1907,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "028_skenario_mimpi_buruk.md"
+    "file": "028_skenario_mimpi_buruk.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Skenario Mimpi Buruk'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Skenario Mimpi Buruk', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar skeptisisme & mimpi dalam mimpi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 29,
@@ -1420,7 +1980,27 @@ const EXPERIMENTS_DATA = [
         "file": "089_membunuh_dan_membiarkan_mati.md"
       }
     ],
-    "file": "029_ketergantungan_hidup.md"
+    "file": "029_ketergantungan_hidup.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Ketergantungan Hidup'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Ketergantungan Hidup', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar hak tubuh & aborsi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 30,
@@ -1471,7 +2051,27 @@ const EXPERIMENTS_DATA = [
         "file": "088_hilang_ingatan_total.md"
       }
     ],
-    "file": "030_dari_sinilah_ingatan_terbuat.md"
+    "file": "030_dari_sinilah_ingatan_terbuat.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Dari Sinilah Ingatan Terbuat'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Dari Sinilah Ingatan Terbuat', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar memori & kelangsungan diri hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 31,
@@ -1519,7 +2119,27 @@ const EXPERIMENTS_DATA = [
         "file": "063_mengira_tahu_padahal_tidak.md"
       }
     ],
-    "file": "031_memang_begitu_adanya.md"
+    "file": "031_memang_begitu_adanya.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Memang Begitu Adanya'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Memang Begitu Adanya', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar psikologi evolusioner & dongeng 'just so' hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 32,
@@ -1567,7 +2187,27 @@ const EXPERIMENTS_DATA = [
         "file": "093_zombi.md"
       }
     ],
-    "file": "032_bebaskan_simone.md"
+    "file": "032_bebaskan_simone.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Bebaskan Simone'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Bebaskan Simone', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kecerdasan buatan & hak mesin hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 33,
@@ -1617,7 +2257,27 @@ const EXPERIMENTS_DATA = [
         "file": "094_pajak_sorites.md"
       }
     ],
-    "file": "033_bilik_kebebasan_berbicara.md"
+    "file": "033_bilik_kebebasan_berbicara.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Bilik Kebebasan Berbicara'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Bilik Kebebasan Berbicara', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kebebasan berpendapat & sensor hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 34,
@@ -1659,7 +2319,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "034_jangan_salahkan_aku.md"
+    "file": "034_jangan_salahkan_aku.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Jangan Salahkan Aku'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Jangan Salahkan Aku', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar tanggung jawab moral & eksistensialisme hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 35,
@@ -1699,7 +2379,27 @@ const EXPERIMENTS_DATA = [
         "file": "099_beri_perdamaian_kesempatan.md"
       }
     ],
-    "file": "035_upaya_terakhir.md"
+    "file": "035_upaya_terakhir.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Upaya Terakhir'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Upaya Terakhir', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika perang & terorisme hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 36,
@@ -1742,7 +2442,27 @@ const EXPERIMENTS_DATA = [
         "file": "077_kambing_hitam.md"
       }
     ],
-    "file": "036_keadilan_pra_emptif.md"
+    "file": "036_keadilan_pra_emptif.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Keadilan Pra-Emptif'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Keadilan Pra-Emptif', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar keadilan retributif & pencegahan kejahatan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 37,
@@ -1783,7 +2503,27 @@ const EXPERIMENTS_DATA = [
         "file": "086_seni_demi_seni.md"
       }
     ],
-    "file": "037_alam_sang_seniman.md"
+    "file": "037_alam_sang_seniman.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Alam Sang Seniman'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Alam Sang Seniman', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar estetika & niat pencipta hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 38,
@@ -1825,7 +2565,27 @@ const EXPERIMENTS_DATA = [
         "file": "051_hidup_dalam_tong.md"
       }
     ],
-    "file": "038_aku_adalah_otak.md"
+    "file": "038_aku_adalah_otak.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Aku Adalah Otak'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Aku Adalah Otak', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar fisikalisme & hakikat budi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 39,
@@ -1869,7 +2629,27 @@ const EXPERIMENTS_DATA = [
         "file": "093_zombi.md"
       }
     ],
-    "file": "039_kamar_bahasa_mandarin.md"
+    "file": "039_kamar_bahasa_mandarin.md",
+    "quiz": {
+      "question": "Melalui eksperimen 'Kamar Bahasa Mandarin', John Searle hendak membuktikan bahwa:",
+      "options": [
+        {
+          "text": "Bahasa Mandarin adalah bahasa yang paling sukar dipelajari oleh komputer.",
+          "isCorrect": false,
+          "explanation": "Salah. Bahasa Mandarin dipilih hanya sebagai contoh simbol yang tidak dipahami oleh subjek eksperimen."
+        },
+        {
+          "text": "Program komputer hanya memanipulasi simbol berdasarkan aturan sintaksis tanpa memiliki pemahaman makna semantik (*intentionality*).",
+          "isCorrect": true,
+          "explanation": "Tepat! Menjalankan program cerdas (AI) tidak sama dengan memiliki pikiran sadar yang benar-benar memahami apa yang sedang diprosesnya."
+        },
+        {
+          "text": "Kecerdasan buatan mustahil bisa mengalahkan manusia dalam ujian terjemahan bahasa.",
+          "isCorrect": false,
+          "explanation": "Salah. Komputer bisa saja lolos Uji Turing, tetapi tetap tidak memiliki kesadaran subjektif di dalamnya."
+        }
+      ]
+    }
   },
   {
     "id": 40,
@@ -1910,7 +2690,27 @@ const EXPERIMENTS_DATA = [
         "file": "076_kepala_internet.md"
       }
     ],
-    "file": "040_pemenang_di_atas_kuda_goyang.md"
+    "file": "040_pemenang_di_atas_kuda_goyang.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pemenang di Atas Kuda Goyang'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pemenang di Atas Kuda Goyang', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & kebenaran hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 41,
@@ -1954,7 +2754,27 @@ const EXPERIMENTS_DATA = [
         "file": "090_sesuatu_yang_tak_kita_pahami.md"
       }
     ],
-    "file": "041_meraba_warna_biru.md"
+    "file": "041_meraba_warna_biru.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Meraba Warna Biru'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Meraba Warna Biru', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar empirisme & persepsi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 42,
@@ -2001,7 +2821,27 @@ const EXPERIMENTS_DATA = [
         "file": "070_sang_inspektur_tiba.md"
       }
     ],
-    "file": "042_ambil_uangnya_dan_lari.md"
+    "file": "042_ambil_uangnya_dan_lari.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Ambil Uangnya dan Lari'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Ambil Uangnya dan Lari', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar teori keputusan & paradoks newcomb hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 43,
@@ -2045,7 +2885,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "043_kejutan_masa_depan.md"
+    "file": "043_kejutan_masa_depan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kejutan Masa Depan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kejutan Masa Depan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar identitas personal & waktu hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 44,
@@ -2086,7 +2946,27 @@ const EXPERIMENTS_DATA = [
         "file": "082_penumpang_gelap.md"
       }
     ],
-    "file": "044_sampai_maut_memisahkan.md"
+    "file": "044_sampai_maut_memisahkan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sampai Maut Memisahkan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sampai Maut Memisahkan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar teori permainan & dilema tahanan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 45,
@@ -2118,7 +2998,27 @@ const EXPERIMENTS_DATA = [
         "file": "078_bertaruh_demi_tuhan.md"
       }
     ],
-    "file": "045_tukang_kebun_kasatmata.md"
+    "file": "045_tukang_kebun_kasatmata.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Tukang Kebun Kasatmata'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Tukang Kebun Kasatmata', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar falsifikasi & bahasa religius hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 46,
@@ -2164,7 +3064,27 @@ const EXPERIMENTS_DATA = [
         "file": "038_aku_adalah_otak.md"
       }
     ],
-    "file": "046_menyerupai_amuba.md"
+    "file": "046_menyerupai_amuba.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Menyerupai Amuba'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Menyerupai Amuba', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar identitas personal & pembelahan diri hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 47,
@@ -2209,7 +3129,27 @@ const EXPERIMENTS_DATA = [
         "file": "085_manusia_yang_tak_pernah_ada.md"
       }
     ],
-    "file": "047_kelinci.md"
+    "file": "047_kelinci.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kelinci!'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kelinci!', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar relativitas bahasa & holisme makna hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 48,
@@ -2250,7 +3190,27 @@ const EXPERIMENTS_DATA = [
         "file": "086_seni_demi_seni.md"
       }
     ],
-    "file": "048_jenius_yang_jahat.md"
+    "file": "048_jenius_yang_jahat.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Jenius yang Jahat'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Jenius yang Jahat', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika seni vs otonomi estetika hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 49,
@@ -2294,7 +3254,27 @@ const EXPERIMENTS_DATA = [
         "file": "083_kaidah_kencana.md"
       }
     ],
-    "file": "049_celah_di_balik_keseluruhan_bagian.md"
+    "file": "049_celah_di_balik_keseluruhan_bagian.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Celah di Balik Keseluruhan Bagian'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Celah di Balik Keseluruhan Bagian', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar filsafat pikiran & kekeliruan kategori hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 50,
@@ -2336,7 +3316,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "050_suap_yang_baik.md"
+    "file": "050_suap_yang_baik.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Suap yang Baik'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Suap yang Baik', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar integritas moral & suap hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 51,
@@ -2381,7 +3381,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "051_hidup_dalam_tong.md"
+    "file": "051_hidup_dalam_tong.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Hidup dalam Tong'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Hidup dalam Tong', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & realitas khayal hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 52,
@@ -2425,7 +3445,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "052_lebih_atau_kurang.md"
+    "file": "052_lebih_atau_kurang.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Lebih atau Kurang'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Lebih atau Kurang', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar paradoks populasi & kuantitas kehidupan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 53,
@@ -2466,7 +3506,27 @@ const EXPERIMENTS_DATA = [
         "file": "089_membunuh_dan_membiarkan_mati.md"
       }
     ],
-    "file": "053_dilema_efek_ganda.md"
+    "file": "053_dilema_efek_ganda.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Dilema Efek Ganda'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Dilema Efek Ganda', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar doktrin efek ganda & eutanasia hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 54,
@@ -2510,7 +3570,27 @@ const EXPERIMENTS_DATA = [
         "file": "088_hilang_ingatan_total.md"
       }
     ],
-    "file": "054_sang_aku_yang_sukar_dipahami.md"
+    "file": "054_sang_aku_yang_sukar_dipahami.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sang Aku yang Sukar Dipahami'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sang Aku yang Sukar Dipahami', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar hakikat diri & ilusi sang 'aku' hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 55,
@@ -2554,7 +3634,27 @@ const EXPERIMENTS_DATA = [
         "file": "087_ketimpangan_yang_adil.md"
       }
     ],
-    "file": "055_pembangunan_berkelanjutan.md"
+    "file": "055_pembangunan_berkelanjutan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pembangunan Berkelanjutan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pembangunan Berkelanjutan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika lingkungan & generasi masa depan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 56,
@@ -2600,7 +3700,27 @@ const EXPERIMENTS_DATA = [
         "file": "062_aku_berpikir_maka.md"
       }
     ],
-    "file": "056_pusaran_perspektif_mutlak.md"
+    "file": "056_pusaran_perspektif_mutlak.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pusaran Perspektif Mutlak'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pusaran Perspektif Mutlak', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar perspektif kosmis & absurditas eksistensial hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 57,
@@ -2645,7 +3765,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "057_memakan_tiddles.md"
+    "file": "057_memakan_tiddles.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Memakan Tiddles'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Memakan Tiddles', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar tabu moral & emosi budaya hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 58,
@@ -2691,7 +3831,27 @@ const EXPERIMENTS_DATA = [
         "file": "095_masalah_kejahatan.md"
       }
     ],
-    "file": "058_perintah_ilahi.md"
+    "file": "058_perintah_ilahi.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Perintah Ilahi'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Perintah Ilahi', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika perintah ilahi & iman hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 59,
@@ -2734,7 +3894,27 @@ const EXPERIMENTS_DATA = [
         "file": "073_menjadi_seekor_kelelawar.md"
       }
     ],
-    "file": "059_memandang_lewat_mata_orang_lain.md"
+    "file": "059_memandang_lewat_mata_orang_lain.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Memandang Lewat Mata Orang Lain'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Memandang Lewat Mata Orang Lain', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar persepsi & kualia hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 60,
@@ -2778,7 +3958,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "060_ikuti_kata_kataku_jangan_perbuatanku.md"
+    "file": "060_ikuti_kata_kataku_jangan_perbuatanku.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Ikuti Kata-Kataku, Jangan Perbuatanku'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Ikuti Kata-Kataku, Jangan Perbuatanku', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kemunafikan & rasionalitas tindakan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 61,
@@ -2822,7 +4022,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "061_bulan_mozarela.md"
+    "file": "061_bulan_mozarela.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Bulan Mozarela'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Bulan Mozarela', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar filsafat sains & bukti hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 62,
@@ -2868,7 +4088,27 @@ const EXPERIMENTS_DATA = [
         "file": "054_sang_aku_yang_sukar_dipahami.md"
       }
     ],
-    "file": "062_aku_berpikir_maka.md"
+    "file": "062_aku_berpikir_maka.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Aku Berpikir, Maka?'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Aku Berpikir, Maka?', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & cogito hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 63,
@@ -2912,7 +4152,27 @@ const EXPERIMENTS_DATA = [
         "file": "076_kepala_internet.md"
       }
     ],
-    "file": "063_mengira_tahu_padahal_tidak.md"
+    "file": "063_mengira_tahu_padahal_tidak.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Mengira Tahu Padahal Tidak'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Mengira Tahu Padahal Tidak', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & masalah gettier hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 64,
@@ -2955,7 +4215,27 @@ const EXPERIMENTS_DATA = [
         "file": "077_kambing_hitam.md"
       }
     ],
-    "file": "064_menumpas_di_hulu.md"
+    "file": "064_menumpas_di_hulu.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Menumpas di Hulu'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Menumpas di Hulu', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika pembunuhan preventif hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 65,
@@ -3000,7 +4280,27 @@ const EXPERIMENTS_DATA = [
         "file": "088_hilang_ingatan_total.md"
       }
     ],
-    "file": "065_kekuatan_jiwa.md"
+    "file": "065_kekuatan_jiwa.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kekuatan Jiwa'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kekuatan Jiwa', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar jiwa & reinkarnasi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 66,
@@ -3044,7 +4344,27 @@ const EXPERIMENTS_DATA = [
         "file": "086_seni_demi_seni.md"
       }
     ],
-    "file": "066_sang_pemalsu.md"
+    "file": "066_sang_pemalsu.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sang Pemalsu'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sang Pemalsu', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar keaslian seni & pemalsuan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 67,
@@ -3085,7 +4405,27 @@ const EXPERIMENTS_DATA = [
         "file": "084_prinsip_kesenangan.md"
       }
     ],
-    "file": "067_paradoks_papadam.md"
+    "file": "067_paradoks_papadam.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Paradoks Papadam'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Paradoks Papadam', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar multikulturalisme & paradoks budaya hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 68,
@@ -3129,7 +4469,27 @@ const EXPERIMENTS_DATA = [
         "file": "039_kamar_bahasa_mandarin.md"
       }
     ],
-    "file": "068_rasa_sakit_orang_gila.md"
+    "file": "068_rasa_sakit_orang_gila.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Rasa Sakit Orang Gila'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Rasa Sakit Orang Gila', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar filsafat pikiran & pengalaman sakit hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 69,
@@ -3173,7 +4533,27 @@ const EXPERIMENTS_DATA = [
         "file": "088_hilang_ingatan_total.md"
       }
     ],
-    "file": "069_kengerian_yang_hakiki.md"
+    "file": "069_kengerian_yang_hakiki.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kengerian yang Hakiki'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kengerian yang Hakiki', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar nihilisme, seni & pengulangan abadi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 70,
@@ -3217,7 +4597,27 @@ const EXPERIMENTS_DATA = [
         "file": "094_pajak_sorites.md"
       }
     ],
-    "file": "070_sang_inspektur_tiba.md"
+    "file": "070_sang_inspektur_tiba.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sang Inspektur Tiba'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sang Inspektur Tiba', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & paradoks waktu hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 71,
@@ -3263,7 +4663,27 @@ const EXPERIMENTS_DATA = [
         "file": "089_membunuh_dan_membiarkan_mati.md"
       }
     ],
-    "file": "071_penopang_hidup.md"
+    "file": "071_penopang_hidup.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Penopang Hidup'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Penopang Hidup', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar membunuh vs membiarkan mati hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 72,
@@ -3308,7 +4728,27 @@ const EXPERIMENTS_DATA = [
         "file": "065_kekuatan_jiwa.md"
       }
     ],
-    "file": "072_bebaskan_percy.md"
+    "file": "072_bebaskan_percy.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Bebaskan Percy'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Bebaskan Percy', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kesadaran & personhood hewan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 73,
@@ -3353,7 +4793,27 @@ const EXPERIMENTS_DATA = [
         "file": "068_rasa_sakit_orang_gila.md"
       }
     ],
-    "file": "073_menjadi_seekor_kelelawar.md"
+    "file": "073_menjadi_seekor_kelelawar.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Menjadi Seekor Kelelawar'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Menjadi Seekor Kelelawar', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kesadaran subjektif & kualia hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 74,
@@ -3399,7 +4859,27 @@ const EXPERIMENTS_DATA = [
         "file": "068_rasa_sakit_orang_gila.md"
       }
     ],
-    "file": "074_air_air_di_mana_mana.md"
+    "file": "074_air_air_di_mana_mana.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Air, Air, di Mana-Mana'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Air, Air, di Mana-Mana', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar bahasa, makna & realitas hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 75,
@@ -3444,7 +4924,27 @@ const EXPERIMENTS_DATA = [
         "file": "085_manusia_yang_tak_pernah_ada.md"
       }
     ],
-    "file": "075_cincin_gyges.md"
+    "file": "075_cincin_gyges.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Cincin Gyges'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Cincin Gyges', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kebaikan intrinsik & cincin gyges hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 76,
@@ -3491,7 +4991,27 @@ const EXPERIMENTS_DATA = [
         "file": "063_mengira_tahu_padahal_tidak.md"
       }
     ],
-    "file": "076_kepala_internet.md"
+    "file": "076_kepala_internet.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kepala Internet'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kepala Internet', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & memori eksternal hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 77,
@@ -3535,7 +5055,27 @@ const EXPERIMENTS_DATA = [
         "file": "050_suap_yang_baik.md"
       }
     ],
-    "file": "077_kambing_hitam.md"
+    "file": "077_kambing_hitam.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kambing Hitam'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kambing Hitam', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kambing hitam & keadilan pidana hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 78,
@@ -3583,7 +5123,27 @@ const EXPERIMENTS_DATA = [
         "file": "095_masalah_kejahatan.md"
       }
     ],
-    "file": "078_bertaruh_demi_tuhan.md"
+    "file": "078_bertaruh_demi_tuhan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Bertaruh Demi Tuhan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Bertaruh Demi Tuhan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar pertaruhan pascal & iman rasional hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 79,
@@ -3631,7 +5191,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "079_jeruk_mekanis.md"
+    "file": "079_jeruk_mekanis.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Jeruk Mekanis'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Jeruk Mekanis', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kehendak bebas & rekayasa perilaku hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 80,
@@ -3676,7 +5256,27 @@ const EXPERIMENTS_DATA = [
         "file": "083_kaidah_kencana.md"
       }
     ],
-    "file": "080_hati_dan_nalar.md"
+    "file": "080_hati_dan_nalar.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Hati dan Nalar'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Hati dan Nalar', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar empati emosional vs prinsip moral hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 81,
@@ -3722,7 +5322,27 @@ const EXPERIMENTS_DATA = [
         "file": "073_menjadi_seekor_kelelawar.md"
       }
     ],
-    "file": "081_persepsi_dan_keberadaan.md"
+    "file": "081_persepsi_dan_keberadaan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Persepsi dan Keberadaan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Persepsi dan Keberadaan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar idealisme & persepsi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 82,
@@ -3768,7 +5388,27 @@ const EXPERIMENTS_DATA = [
         "file": "060_ikuti_kata_kataku_jangan_perbuatanku.md"
       }
     ],
-    "file": "082_penumpang_gelap.md"
+    "file": "082_penumpang_gelap.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Penumpang Gelap'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Penumpang Gelap', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar masalah penumpang gelap & keadilan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 83,
@@ -3818,7 +5458,27 @@ const EXPERIMENTS_DATA = [
         "file": "091_tak_ada_yang_terluka.md"
       }
     ],
-    "file": "083_kaidah_kencana.md"
+    "file": "083_kaidah_kencana.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kaidah Kencana'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kaidah Kencana', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar kaidah kencana & universalitas moral hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 84,
@@ -3867,7 +5527,27 @@ const EXPERIMENTS_DATA = [
         "file": "052_lebih_atau_kurang.md"
       }
     ],
-    "file": "084_prinsip_kesenangan.md"
+    "file": "084_prinsip_kesenangan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Prinsip Kesenangan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Prinsip Kesenangan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar utilitarianisme kuantitatif vs kualitatif hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 85,
@@ -3916,7 +5596,27 @@ const EXPERIMENTS_DATA = [
         "file": "074_air_air_di_mana_mana.md"
       }
     ],
-    "file": "085_manusia_yang_tak_pernah_ada.md"
+    "file": "085_manusia_yang_tak_pernah_ada.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Manusia yang Tak Pernah Ada'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Manusia yang Tak Pernah Ada', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar logika & bahasa hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 86,
@@ -3962,7 +5662,27 @@ const EXPERIMENTS_DATA = [
         "file": "066_sang_pemalsu.md"
       }
     ],
-    "file": "086_seni_demi_seni.md"
+    "file": "086_seni_demi_seni.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Seni demi Seni'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Seni demi Seni', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar seni demi seni & keberlanjutan nilai hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 87,
@@ -4013,7 +5733,27 @@ const EXPERIMENTS_DATA = [
         "file": "055_pembangunan_berkelanjutan.md"
       }
     ],
-    "file": "087_ketimpangan_yang_adil.md"
+    "file": "087_ketimpangan_yang_adil.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Ketimpangan yang Adil'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Ketimpangan yang Adil', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar keadilan sosial & prinsip perbedaan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 88,
@@ -4062,7 +5802,27 @@ const EXPERIMENTS_DATA = [
         "file": "065_kekuatan_jiwa.md"
       }
     ],
-    "file": "088_hilang_ingatan_total.md"
+    "file": "088_hilang_ingatan_total.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Hilang Ingatan Total'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Hilang Ingatan Total', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar memori, identitas & realitas hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 89,
@@ -4110,7 +5870,27 @@ const EXPERIMENTS_DATA = [
         "file": "071_penopang_hidup.md"
       }
     ],
-    "file": "089_membunuh_dan_membiarkan_mati.md"
+    "file": "089_membunuh_dan_membiarkan_mati.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Membunuh dan Membiarkan Mati'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Membunuh dan Membiarkan Mati', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar doktrin efek ganda & tindakan moral hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 90,
@@ -4158,7 +5938,27 @@ const EXPERIMENTS_DATA = [
         "file": "098_mesin_pengalaman.md"
       }
     ],
-    "file": "090_sesuatu_yang_tak_kita_pahami.md"
+    "file": "090_sesuatu_yang_tak_kita_pahami.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Sesuatu yang Tak Kita Pahami'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Sesuatu yang Tak Kita Pahami', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar epistemologi & substansi hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 91,
@@ -4206,7 +6006,27 @@ const EXPERIMENTS_DATA = [
         "file": "083_kaidah_kencana.md"
       }
     ],
-    "file": "091_tak_ada_yang_terluka.md"
+    "file": "091_tak_ada_yang_terluka.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Tak Ada yang Terluka'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Tak Ada yang Terluka', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar etika konsekuensialisme & kepercayaan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 92,
@@ -4254,7 +6074,27 @@ const EXPERIMENTS_DATA = [
         "file": "087_ketimpangan_yang_adil.md"
       }
     ],
-    "file": "092_pemerintahan_otomatis.md"
+    "file": "092_pemerintahan_otomatis.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pemerintahan Otomatis'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pemerintahan Otomatis', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar demokrasi algoritmik & tata kelola hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 93,
@@ -4304,7 +6144,27 @@ const EXPERIMENTS_DATA = [
         "file": "068_rasa_sakit_orang_gila.md"
       }
     ],
-    "file": "093_zombi.md"
+    "file": "093_zombi.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Zombi'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Zombi', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar zombi filosofis & kesadaran hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 94,
@@ -4354,7 +6214,27 @@ const EXPERIMENTS_DATA = [
         "file": "070_sang_inspektur_tiba.md"
       }
     ],
-    "file": "094_pajak_sorites.md"
+    "file": "094_pajak_sorites.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Pajak Sorites'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Pajak Sorites', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar paradoks sorites & ketaksaan hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 95,
@@ -4402,7 +6282,27 @@ const EXPERIMENTS_DATA = [
         "file": "058_perintah_ilahi.md"
       }
     ],
-    "file": "095_masalah_kejahatan.md"
+    "file": "095_masalah_kejahatan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Masalah Kejahatan'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Masalah Kejahatan', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar masalah kejahatan & teodise hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 96,
@@ -4448,7 +6348,27 @@ const EXPERIMENTS_DATA = [
         "file": "097_keberuntungan_moral.md"
       }
     ],
-    "file": "096_keluarga_yang_utama.md"
+    "file": "096_keluarga_yang_utama.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Keluarga yang Utama'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Keluarga yang Utama', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar altruisme universal vs keberpihakan keluarga hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 97,
@@ -4500,7 +6420,27 @@ const EXPERIMENTS_DATA = [
         "file": "096_keluarga_yang_utama.md"
       }
     ],
-    "file": "097_keberuntungan_moral.md"
+    "file": "097_keberuntungan_moral.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Keberuntungan Moral'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Keberuntungan Moral', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar keberuntungan moral & tanggung jawab hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 98,
@@ -4549,7 +6489,27 @@ const EXPERIMENTS_DATA = [
         "file": "051_hidup_dalam_tong.md"
       }
     ],
-    "file": "098_mesin_pengalaman.md"
+    "file": "098_mesin_pengalaman.md",
+    "quiz": {
+      "question": "Apa kritik utama Robert Nozick terhadap hedonisme melalui eksperimen 'Mesin Pengalaman'?",
+      "options": [
+        {
+          "text": "Manusia menginginkan hal-hal nyata—seperti benar-benar berbuat, benar-benar menjadi seseorang, dan berhubungan dengan realitas—bukan sekadar ilusi kenikmatan psikologis.",
+          "isCorrect": true,
+          "explanation": "Tepat! Fakta bahwa banyak orang menolak terhubung ke mesin pembawa kenikmatan membuktikan bahwa kebahagiaan subjektif bukanlah satu-satunya hal yang bernilai dalam hidup manusia."
+        },
+        {
+          "text": "Mesin tersebut memiliki risiko korsleting listrik yang membahayakan otak.",
+          "isCorrect": false,
+          "explanation": "Salah. Eksperimen mensyaratkan mesin berfungsi 100% sempurna tanpa cacat teknis."
+        },
+        {
+          "text": "Pengalaman nyata manusia selalu jauh lebih menyenangkan daripada simulasi apa pun.",
+          "isCorrect": false,
+          "explanation": "Salah. Nozick justru mengasumsikan simulasi mesin jauh lebih nikmat daripada realitas; namun manusia tetap menghargai keaslian realitas."
+        }
+      ]
+    }
   },
   {
     "id": 99,
@@ -4595,7 +6555,27 @@ const EXPERIMENTS_DATA = [
         "file": "079_jeruk_mekanis.md"
       }
     ],
-    "file": "099_beri_perdamaian_kesempatan.md"
+    "file": "099_beri_perdamaian_kesempatan.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Beri Perdamaian Kesempatan?'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Beri Perdamaian Kesempatan?', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar pasifisme, utilitarianisme & perang hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   },
   {
     "id": 100,
@@ -4644,6 +6624,26 @@ const EXPERIMENTS_DATA = [
         "file": "044_sampai_maut_memisahkan.md"
       }
     ],
-    "file": "100_kafe_sarang.md"
+    "file": "100_kafe_sarang.md",
+    "quiz": {
+      "question": "Apa kesimpulan pokok yang diuji dalam eksperimen 'Kafe Sarang'?",
+      "options": [
+        {
+          "text": "Menguji batas penalaran kita ketika dihadapkan pada ketegangan antara intuisi moral/akal sehat dengan konsistensi prinsip logisnya.",
+          "isCorrect": true,
+          "explanation": "Tepat! Melalui skenario 'Kafe Sarang', Baggini memperlihatkan bahwa menguji asumsi dasar hingga konsekuensi terjauhnya memaksa kita meninjau ulang keyakinan yang selama ini kita anggap sudah mapan."
+        },
+        {
+          "text": "Menegaskan bahwa akal budi manusia tidak pernah menghadapi paradoks nyata dalam kehidupan praktis.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Eksperimen pikiran justru dirancang untuk memunculkan paradoks dan memperlihatkan kontradiksi nalar."
+        },
+        {
+          "text": "Menunjukkan bahwa perdebatan filosofis seputar eksploitasi ekonomi & tanggung jawab konsumen hanyalah kesalahpahaman istilah semata.",
+          "isCorrect": false,
+          "explanation": "Kurang tepat. Masalah yang diangkat bukan sekadar semantik kata, melainkan persoalan mendalam mengenai hakikat nilai, realitas, atau tindakan."
+        }
+      ]
+    }
   }
 ];

@@ -1,12 +1,12 @@
 // ==========================================================================
-// APP.JS - INTERACTIVE PHILOSOPHY LAB & READER
+// APP.JS - INTERACTIVE PHILOSOPHY LAB & READER WITH TOPIC QUIZZES
 // ==========================================================================
 
 let currentExperimentId = 1;
 let currentFilterTheme = 'all';
 let searchQuery = '';
 let currentFontSize = 19;
-let isConstellationInitialized = false;
+let userQuizAnswers = {}; // { [expId]: selectedOptionIndex }
 
 // THEMATIC DOMAINS
 const DOMAINS = [
@@ -19,53 +19,6 @@ const DOMAINS = [
   { id: 'Estetika', label: 'Estetika & Bahasa' },
   { id: 'Logika', label: 'Logika & Paradoks' }
 ];
-
-// REFLECTION POLL QUESTIONS GENERATOR (Customized per experiment)
-function getReflectionPrompt(exp) {
-  const customQuestions = {
-    1: {
-      q: "Jika Anda tidak bisa membuktikan 100% bahwa Anda sedang tidak tertipu oleh iblis pengelabui, apakah Anda masih menganggap keyakinan sehari-hari Anda rasional?",
-      optA: "Ya, pragmatisme dan konsistensi pengalaman sudah cukup.",
-      optB: "Tidak, tanpa kepastian mutlak, semua pengetahuan sesungguhnya rapuh."
-    },
-    2: {
-      q: "Jika sebuah teletransporter menghancurkan atom tubuh Anda di Bumi lalu menyusun duplikat persis di Mars, apakah orang di Mars itu adalah ANDA?",
-      optA: "Ya, selama kontinuitas ingatan dan kesadaran psikologis berlanjut.",
-      optB: "Tidak, saya telah tewas dan yang di Mars hanyalah kloningan saya."
-    },
-    5: {
-      q: "Jika seekor hewan hasil rekayasa genetika secara sadar dan sukarela memohon untuk dimakan, apakah memakannya etis bagi seorang vegetarian?",
-      optA: "Etis, karena tidak ada pemaksaan atau pelanggaran hak keberadaan.",
-      optB: "Tetap tidak etis, menciptakan makhluk yang berhasrat dimangsa adalah kekejian moral."
-    },
-    10: {
-      q: "Di balik Selubung Ketidaktahuan (tanpa tahu status sosial Anda di masa depan), sistem masyarakat mana yang akan Anda pilih?",
-      optA: "Sistem meritokrasi bebas: siapa yang unggul berhak mendapat sebanyak-banyaknya.",
-      optB: "Sistem Rawlsian: memastikan kelompok paling tertindas mendapat jaminan terbaik."
-    },
-    39: {
-      q: "Apakah komputer canggih yang mampu menjawab percakapan manusia dengan sempurna benar-benar MEMAHAMI bahasa tersebut?",
-      optA: "Ya, pemahaman pada hakikatnya adalah kemampuan pemrosesan dan respons yang tepat.",
-      optB: "Tidak, itu sekadar manipulasi simbol sintaksis tanpa makna subjektif (semantik)."
-    },
-    98: {
-      q: "Jika ada 'Mesin Pengalaman' yang bisa memberi Anda simulasi kebahagiaan sempurna tanpa batas seumur hidup, maukah Anda masuk ke dalamnya?",
-      optA: "Mau, kebahagiaan subjektif adalah tujuan tertinggi dalam hidup.",
-      optB: "Tidak, realitas nyata dan keaslian hidup jauh lebih berharga daripada ilusi."
-    }
-  };
-
-  if (customQuestions[exp.id]) {
-    return customQuestions[exp.id];
-  }
-
-  // Default thought-provoking philosophical dilemma
-  return {
-    q: `Bagaimana kesimpulan Anda terhadap dilema moral/nalar dalam "${exp.title_id}"?`,
-    optA: "Argumen ini menunjukkan adanya celah mendasar dalam cara kita memandang realitas.",
-    optB: "Intuisi akal sehat kita tetap benar; eksperimen ini sekadar ilusi bahasa/teka-teki teoretis."
-  };
-}
 
 // INITIALIZATION
 document.addEventListener('DOMContentLoaded', () => {
@@ -104,7 +57,7 @@ function setTheme(theme) {
 
 // VIEW ROUTING
 function switchView(viewName) {
-  const views = ['explorer', 'reader', 'constellation', 'collider'];
+  const views = ['explorer', 'reader'];
   views.forEach(v => {
     const el = document.getElementById(`view-${v}`);
     const btn = document.getElementById(`btn-tab-${v}`);
@@ -118,15 +71,6 @@ function switchView(viewName) {
   if (activeBtn) activeBtn.classList.add('active');
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
-
-  if (viewName === 'constellation') {
-    if (!isConstellationInitialized) {
-      setTimeout(initConstellation, 100);
-      isConstellationInitialized = true;
-    }
-  } else if (viewName === 'collider') {
-    generateColliderPair();
-  }
 }
 
 // EXPLORER VIEW RENDERING
@@ -198,6 +142,8 @@ function renderExplorerGrid() {
   grid.innerHTML = filtered.map(exp => {
     const snippet = exp.scenario.length > 0 ? exp.scenario[0] : '';
     const sourceBrief = exp.source ? exp.source.replace(/^Source:\s*/i, '').replace(/^Sumber:\s*/i, '') : 'Eksperimen Bebas';
+    const isAnswered = userQuizAnswers[exp.id] !== undefined;
+    
     return `
       <div class="exp-card" onclick="openExperiment(${exp.id})">
         <div>
@@ -211,7 +157,7 @@ function renderExplorerGrid() {
         </div>
         <div class="card-footer">
           <span class="card-source-tag" title="${sourceBrief}">📖 ${sourceBrief}</span>
-          <span class="card-arrow">Baca &rarr;</span>
+          <span class="card-arrow">${isAnswered ? '✅ Kuis Terjawab &rarr;' : 'Baca & Kuis &rarr;'}</span>
         </div>
       </div>
     `;
@@ -223,16 +169,20 @@ function renderSidebarTOC() {
   const list = document.getElementById('sidebar-nav-list');
   if (!list) return;
 
-  list.innerHTML = EXPERIMENTS_DATA.map(exp => `
-    <li>
-      <button class="sidebar-item-btn ${exp.id === currentExperimentId ? 'active' : ''}" 
-              id="toc-btn-${exp.id}" 
-              onclick="openExperiment(${exp.id})">
-        <span class="sidebar-item-num">${String(exp.id).padStart(3, '0')}</span>
-        <span class="sidebar-item-text">${exp.title_id}</span>
-      </button>
-    </li>
-  `).join('');
+  list.innerHTML = EXPERIMENTS_DATA.map(exp => {
+    const isAnswered = userQuizAnswers[exp.id] !== undefined;
+    return `
+      <li>
+        <button class="sidebar-item-btn ${exp.id === currentExperimentId ? 'active' : ''}" 
+                id="toc-btn-${exp.id}" 
+                onclick="openExperiment(${exp.id})">
+          <span class="sidebar-item-num">${String(exp.id).padStart(3, '0')}</span>
+          <span class="sidebar-item-text" style="flex:1;">${exp.title_id}</span>
+          ${isAnswered ? '<span style="font-size:0.7rem; color:var(--success-border);">●</span>' : ''}
+        </button>
+      </li>
+    `;
+  }).join('');
 }
 
 function openExperiment(id) {
@@ -279,7 +229,6 @@ function loadExperiment(id) {
 
   const scenarioHTML = exp.scenario.map(p => `<p>${p}</p>`).join('');
   const commentaryHTML = exp.commentary.map(p => `<p>${p}</p>`).join('');
-  const reflection = getReflectionPrompt(exp);
 
   const sourceHTML = exp.source ? `
     <div class="source-citation">
@@ -288,6 +237,59 @@ function loadExperiment(id) {
     </div>
   ` : '';
 
+  // QUIZ HTML GENERATION
+  const quiz = exp.quiz;
+  const answeredIdx = userQuizAnswers[exp.id];
+  const optionLetters = ['A', 'B', 'C', 'D'];
+
+  const quizOptionsHTML = quiz.options.map((opt, idx) => {
+    let extraClass = '';
+    if (answeredIdx !== undefined) {
+      if (opt.isCorrect) extraClass = 'correct';
+      else if (answeredIdx === idx && !opt.isCorrect) extraClass = 'incorrect';
+    }
+
+    return `
+      <button class="quiz-opt-btn ${extraClass}" 
+              ${answeredIdx !== undefined ? 'disabled' : ''} 
+              onclick="submitQuizAnswer(${exp.id}, ${idx})">
+        <span class="quiz-opt-letter">${optionLetters[idx]}.</span>
+        <span style="flex:1;">${opt.text}</span>
+      </button>
+    `;
+  }).join('');
+
+  let feedbackHTML = '';
+  if (answeredIdx !== undefined) {
+    const selectedOpt = quiz.options[answeredIdx];
+    const isCorrect = selectedOpt.isCorrect;
+    feedbackHTML = `
+      <div class="quiz-feedback-box show ${isCorrect ? 'correct' : 'incorrect'}">
+        <div class="feedback-heading">
+          ${isCorrect ? '✅ Jawaban Tepat!' : '❌ Refleksi Filosofis:'}
+        </div>
+        <p>${selectedOpt.explanation}</p>
+      </div>
+    `;
+  }
+
+  const quizHTML = `
+    <div class="quiz-card" id="quiz-card-${exp.id}">
+      <div class="quiz-header">
+        <span class="quiz-badge">Kuis Filosofis</span>
+        <span class="quiz-status-tag">${answeredIdx !== undefined ? 'Status: Terjawab' : 'Uji Pemahaman'}</span>
+      </div>
+      <h3 class="quiz-question">${quiz.question}</h3>
+      <div class="quiz-options-list">
+        ${quizOptionsHTML}
+      </div>
+      <div id="quiz-feedback-container-${exp.id}">
+        ${feedbackHTML}
+      </div>
+    </div>
+  `;
+
+  // SEE ALSO SECTION
   const seeAlsoHTML = exp.see_also.length > 0 ? `
     <div class="see-also-container">
       <h3 class="see-also-title">
@@ -338,247 +340,16 @@ function loadExperiment(id) {
       ${commentaryHTML}
     </div>
 
-    <!-- INTERACTIVE REFLECTION POLL -->
-    <div class="reflection-card">
-      <div class="reflection-header">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-        <span class="reflection-title">Dilema & Perenungan Anda</span>
-      </div>
-      <div class="reflection-prompt">"${reflection.q}"</div>
-      <div class="reflection-options" id="reflection-options-${exp.id}">
-        <button class="poll-btn" onclick="voteDilemma(${exp.id}, 'A')">
-          <span>A. ${reflection.optA}</span>
-          <span class="mono" id="vote-pct-a" style="display:none; font-size:0.8rem; color:var(--text-muted);">63%</span>
-        </button>
-        <button class="poll-btn" onclick="voteDilemma(${exp.id}, 'B')">
-          <span>B. ${reflection.optB}</span>
-          <span class="mono" id="vote-pct-b" style="display:none; font-size:0.8rem; color:var(--text-muted);">37%</span>
-        </button>
-      </div>
-    </div>
+    <!-- INTERACTIVE PHILOSOPHICAL QUIZ -->
+    ${quizHTML}
 
     <!-- SEE ALSO -->
     ${seeAlsoHTML}
   `;
 }
 
-function voteDilemma(expId, choice) {
-  const container = document.getElementById(`reflection-options-${expId}`);
-  if (!container) return;
-  const btns = container.querySelectorAll('.poll-btn');
-  btns.forEach(b => b.classList.remove('voted'));
-
-  const clickedIdx = (choice === 'A') ? 0 : 1;
-  if (btns[clickedIdx]) btns[clickedIdx].classList.add('voted');
-
-  const pctA = document.getElementById('vote-pct-a');
-  const pctB = document.getElementById('vote-pct-b');
-  if (pctA) pctA.style.display = 'inline';
-  if (pctB) pctB.style.display = 'inline';
-}
-
-// ==========================================================================
-// CONSTELLATION GRAPH NETWORK (CANVAS PHYSICS)
-// ==========================================================================
-function initConstellation() {
-  const canvas = document.getElementById('constellation-canvas');
-  const tooltip = document.getElementById('constellation-tooltip');
-  if (!canvas) return;
-
-  const ctx = canvas.getContext('2d');
-  let width = canvas.offsetWidth;
-  let height = canvas.offsetHeight;
-  canvas.width = width;
-  canvas.height = height;
-
-  const nodes = EXPERIMENTS_DATA.map((exp, idx) => {
-    const angle = (idx / 100) * Math.PI * 2;
-    const radius = Math.min(width, height) * 0.38 + (Math.random() - 0.5) * 80;
-    return {
-      id: exp.id,
-      title: exp.title_id,
-      theme: exp.theme,
-      x: width / 2 + Math.cos(angle) * radius,
-      y: height / 2 + Math.sin(angle) * radius,
-      vx: (Math.random() - 0.5) * 0.5,
-      vy: (Math.random() - 0.5) * 0.5,
-      radius: exp.see_also.length >= 4 ? 7 : 5,
-      see_also: exp.see_also.map(r => r.id)
-    };
-  });
-
-  const edges = [];
-  EXPERIMENTS_DATA.forEach(exp => {
-    exp.see_also.forEach(ref => {
-      if (ref.id > exp.id) {
-        edges.push({ source: exp.id, target: ref.id });
-      }
-    });
-  });
-
-  let hoveredNode = null;
-
-  function getNode(id) {
-    return nodes.find(n => n.id === id);
-  }
-
-  function getThemeColor(theme) {
-    if (theme.includes('Epistemologi')) return '#b43b24';
-    if (theme.includes('Pikiran') || theme.includes('Kesadaran')) return '#2b5c54';
-    if (theme.includes('Etika') || theme.includes('Moral')) return '#c28827';
-    if (theme.includes('Identitas')) return '#5a3d7a';
-    if (theme.includes('Keadilan')) return '#1e5f8a';
-    if (theme.includes('Estetika')) return '#8c4b6b';
-    return '#555555';
-  }
-
-  function animate() {
-    ctx.clearRect(0, 0, width, height);
-
-    // Physics step: soft attraction to center and damping
-    nodes.forEach(n => {
-      const dx = width / 2 - n.x;
-      const dy = height / 2 - n.y;
-      n.vx += dx * 0.0003;
-      n.vy += dy * 0.0003;
-      n.vx *= 0.96;
-      n.vy *= 0.96;
-      n.x += n.vx;
-      n.y += n.vy;
-
-      // Bound within canvas
-      n.x = Math.max(20, Math.min(width - 20, n.x));
-      n.y = Math.max(20, Math.min(height - 20, n.y));
-    });
-
-    // Draw Edges
-    edges.forEach(e => {
-      const n1 = getNode(e.source);
-      const n2 = getNode(e.target);
-      if (!n1 || !n2) return;
-
-      const isConnectedToHover = hoveredNode && (hoveredNode.id === n1.id || hoveredNode.id === n2.id);
-
-      ctx.beginPath();
-      ctx.moveTo(n1.x, n1.y);
-      ctx.lineTo(n2.x, n2.y);
-      if (isConnectedToHover) {
-        ctx.strokeStyle = '#b43b24';
-        ctx.lineWidth = 2;
-      } else {
-        ctx.strokeStyle = 'rgba(168, 162, 158, 0.25)';
-        ctx.lineWidth = 0.8;
-      }
-      ctx.stroke();
-    });
-
-    // Draw Nodes
-    nodes.forEach(n => {
-      const isHovered = hoveredNode && hoveredNode.id === n.id;
-      const isConnected = hoveredNode && (hoveredNode.see_also.includes(n.id) || n.see_also.includes(hoveredNode.id));
-
-      ctx.beginPath();
-      ctx.arc(n.x, n.y, isHovered ? n.radius + 4 : n.radius, 0, Math.PI * 2);
-      ctx.fillStyle = getThemeColor(n.theme);
-      ctx.fill();
-
-      if (isHovered || isConnected) {
-        ctx.lineWidth = 2.5;
-        ctx.strokeStyle = '#ffffff';
-        ctx.stroke();
-      }
-    });
-
-    requestAnimationFrame(animate);
-  }
-
-  animate();
-
-  // Resize handler
-  window.addEventListener('resize', () => {
-    width = canvas.offsetWidth;
-    height = canvas.offsetHeight;
-    canvas.width = width;
-    canvas.height = height;
-  });
-
-  // Mouse interactivity
-  canvas.addEventListener('mousemove', (e) => {
-    const rect = canvas.getBoundingClientRect();
-    const mx = e.clientX - rect.left;
-    const my = e.clientY - rect.top;
-
-    let found = null;
-    for (const n of nodes) {
-      const dist = Math.hypot(n.x - mx, n.y - my);
-      if (dist < n.radius + 6) {
-        found = n;
-        break;
-      }
-    }
-
-    hoveredNode = found;
-    if (found) {
-      canvas.style.cursor = 'pointer';
-      if (tooltip) {
-        tooltip.style.display = 'block';
-        tooltip.style.left = `${mx + rect.left}px`;
-        tooltip.style.top = `${my + rect.top}px`;
-        tooltip.innerHTML = `<strong>#${found.id}. ${found.title}</strong><br><span style="font-size:0.75rem; opacity:0.85;">${found.theme}</span>`;
-      }
-    } else {
-      canvas.style.cursor = 'default';
-      if (tooltip) tooltip.style.display = 'none';
-    }
-  });
-
-  canvas.addEventListener('click', () => {
-    if (hoveredNode) {
-      openExperiment(hoveredNode.id);
-    }
-  });
-}
-
-// ==========================================================================
-// THOUGHT COLLIDER (DUAL COLLISION ENGINE)
-// ==========================================================================
-function generateColliderPair() {
-  const container = document.getElementById('collider-columns');
-  if (!container) return;
-
-  const id1 = Math.floor(Math.random() * 100) + 1;
-  let id2 = Math.floor(Math.random() * 100) + 1;
-  while (id2 === id1) {
-    id2 = Math.floor(Math.random() * 100) + 1;
-  }
-
-  const exp1 = EXPERIMENTS_DATA.find(e => e.id === id1);
-  const exp2 = EXPERIMENTS_DATA.find(e => e.id === id2);
-
-  function renderColliderCard(exp) {
-    return `
-      <div class="collider-card">
-        <div>
-          <div class="card-top">
-            <span class="card-num"># ${String(exp.id).padStart(3, '0')}</span>
-            <span class="card-theme">${exp.theme}</span>
-          </div>
-          <h3 class="card-title">${exp.title_id}</h3>
-          <div class="card-title-en">${exp.title_en}</div>
-          <div class="card-snippet" style="-webkit-line-clamp: 6;">
-            ${exp.scenario.join(' ')}
-          </div>
-        </div>
-        <button class="nav-btn" style="margin-top:1.5rem; justify-content:center; background:var(--bg-surface); border:1px solid var(--border-color);" onclick="openExperiment(${exp.id})">
-          Baca Selengkapnya &rarr;
-        </button>
-      </div>
-    `;
-  }
-
-  container.innerHTML = `
-    ${renderColliderCard(exp1)}
-    <div class="collider-vs-badge">VS</div>
-    ${renderColliderCard(exp2)}
-  `;
+function submitQuizAnswer(expId, optionIdx) {
+  userQuizAnswers[expId] = optionIdx;
+  loadExperiment(expId);
+  renderSidebarTOC();
 }

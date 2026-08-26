@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Babi yang Ingin Dimakan — 100 Eksperimen Pikiran Julian Baggini</title>
-  <meta name="description" content="Eksplorasi interaktif 100 eksperimen pikiran filosofis karya Julian Baggini dalam bahasa Indonesia berkualitas sastra tinggi.">
+  <meta name="description" content="Eksplorasi interaktif 100 eksperimen pikiran filosofis karya Julian Baggini dalam bahasa Indonesia berkualitas sastra tinggi dengan kuis perenungan di setiap topik.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,19 +22,11 @@
       <nav class="nav-views">
         <button class="nav-btn active" id="btn-tab-explorer" onclick="switchView('explorer')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-          Katalog
+          Katalog 100 Eksperimen
         </button>
         <button class="nav-btn" id="btn-tab-reader" onclick="switchView('reader')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          Ruang Baca
-        </button>
-        <button class="nav-btn" id="btn-tab-constellation" onclick="switchView('constellation')">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-          Konstelasi
-        </button>
-        <button class="nav-btn" id="btn-tab-collider" onclick="switchView('collider')">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Tabrakan Gagasan
+          Ruang Baca & Kuis
         </button>
       </nav>
 
@@ -66,7 +58,7 @@
       <div class="hero-editorial">
         <div class="hero-tag">Laboratorium Akal Budi & Paradoks</div>
         <h1 class="hero-heading">100 Eksperimen Pikiran untuk Menguji Batas Nalar Manusia</h1>
-        <p class="hero-sub">Jelajahi kumpulan paradoks filosofis, dilema moral, teka-teki identitas personal, dan misteri kesadaran budi yang dikurasi oleh Julian Baggini.</p>
+        <p class="hero-sub">Jelajahi kumpulan paradoks filosofis, dilema moral, teka-teki identitas personal, dan misteri kesadaran budi yang dikurasi oleh Julian Baggini, lengkap dengan uji pemahaman di setiap topik.</p>
       </div>
 
       <!-- FILTER & SEARCH CONTROLS -->
@@ -92,7 +84,7 @@
       </div>
     </section>
 
-    <!-- VIEW 2: RUANG BACA (EDITORIAL READER) -->
+    <!-- VIEW 2: RUANG BACA & KUIS (EDITORIAL READER) -->
     <section class="view-section" id="view-reader">
       <div class="reader-layout">
         <!-- SIDEBAR TOC -->
@@ -126,37 +118,6 @@
             <!-- Populated by JS -->
           </div>
         </article>
-      </div>
-    </section>
-
-    <!-- VIEW 3: KONSTELASI GAGASAN (GRAPH NETWORK) -->
-    <section class="view-section" id="view-constellation">
-      <div class="constellation-wrapper">
-        <canvas class="constellation-canvas" id="constellation-canvas"></canvas>
-        <div class="constellation-overlay">
-          <h3>Jejaring Pemikiran</h3>
-          <p>Setiap simpul merepresentasikan satu eksperimen pikiran. Garis penghubung menunjukkan relasi rujukan langsung (*Lihat Juga*). Gerakkan kursor atau klik simpul untuk membaca.</p>
-        </div>
-        <div class="constellation-tooltip" id="constellation-tooltip"></div>
-      </div>
-    </section>
-
-    <!-- VIEW 4: TABRAKAN GAGASAN (THOUGHT COLLIDER) -->
-    <section class="view-section" id="view-collider">
-      <div class="collider-wrapper">
-        <div class="collider-header">
-          <div class="hero-tag">Akselerator Kontradiksi</div>
-          <h2 class="collider-title">Tabrakan Dua Gagasan</h2>
-          <p class="collider-sub">Sandingkan dua eksperimen pikiran yang berbeda secara acak untuk menemukan sintesis baru, ketegangan moral, atau kontradiksi nalar yang tak terduga.</p>
-          <button class="btn-reroll" onclick="generateColliderPair()">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
-            Tabrakkan Gagasan Baru
-          </button>
-        </div>
-
-        <div class="collider-columns" id="collider-columns">
-          <!-- Populated by JS -->
-        </div>
       </div>
     </section>
 
