@@ -136,6 +136,36 @@ h1, h2, h3, h4, h5, h6 {
 .mono { font-family: var(--font-mono); }
 .sans { font-family: var(--font-sans); }
 
+/* INLINE MARKDOWN & MATH FORMATTING */
+em, i {
+  font-family: var(--font-body);
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+strong, b {
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.inline-code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: var(--accent);
+}
+
+.math-inline {
+  font-family: var(--font-display);
+  font-style: italic;
+  padding: 0 0.2em;
+  letter-spacing: 0.05em;
+  color: var(--accent-secondary);
+}
+
 /* TOP HEADER & NAVBAR */
 .site-header {
   position: sticky;

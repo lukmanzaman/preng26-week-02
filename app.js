@@ -20,6 +20,73 @@ const DOMAINS = [
   { id: 'Logika', label: 'Logika & Paradoks' }
 ];
 
+// ==========================================================================
+// ROBUST MARKDOWN & LATEX INLINE RENDERER
+// ==========================================================================
+function renderMarkdown(raw) {
+  if (!raw || typeof raw !== 'string') return '';
+
+  let str = raw;
+
+  // 1. Math / LaTeX Symbols replacement
+  str = str.replace(/\\times\b/g, '×')
+           .replace(/\\pm\b/g, '±')
+           .replace(/\\neq\b/g, '≠')
+           .replace(/\\leq\b/g, '≤')
+           .replace(/\\geq\b/g, '≥')
+           .replace(/\\infty\b/g, '∞')
+           .replace(/\\leftrightarrow\b/g, '↔')
+           .replace(/\\to\b/g, '→')
+           .replace(/\\rightarrow\b/g, '→')
+           .replace(/\\leftarrow\b/g, '←')
+           .replace(/\\lor\b/g, '∨')
+           .replace(/\\land\b/g, '∧')
+           .replace(/\\neg\b/g, '¬')
+           .replace(/\\forall\b/g, '∀')
+           .replace(/\\exists\b/g, '∃')
+           .replace(/\\in\b/g, '∈');
+
+  // Math inline $...$
+  str = str.replace(/\$([^\$]+)\$/g, '<span class="math-inline">$1</span>');
+
+  // 2. Inline Code `code`
+  str = str.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+
+  // 3. Bold + Italic: ***text*** or ___text___ or **_text_** or _**text**_
+  str = str.replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+           .replace(/___([^_]+)___/g, '<strong><em>$1</em></strong>')
+           .replace(/\*\*\_([^_]+)\_\*\*/g, '<strong><em>$1</em></strong>')
+           .replace(/\_\*\*([^*]+)\*\*\_/g, '<strong><em>$1</em></strong>');
+
+  // 4. Bold: **text** or __text__
+  str = str.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+           .replace(/__([^_]+)__/g, '<strong>$1</strong>');
+
+  // 5. Italic / Book Titles / Internal Asterisks: *text* or _text_
+  // Handles punctuation boundaries e.g. "*book*", (*book*), *book*, *book*.
+  str = str.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+  str = str.replace(/(^|\s|>|\()_([^_]+)_($|\s|<|\)|\.|\,)/g, '$1<em>$2</em>$3');
+
+  // 6. Typographic dashes & ellipsis
+  str = str.replace(/---/g, '—')
+           .replace(/--/g, '–');
+
+  return str;
+}
+
+// Strip markdown for plain-text previews (e.g. search snippet)
+function stripMarkdown(raw) {
+  if (!raw || typeof raw !== 'string') return '';
+  return raw.replace(/\*\*\*([^*]+)\*\*\*/g, '$1')
+            .replace(/\*\*([^*]+)\*\*/g, '$1')
+            .replace(/\*([^*]+)\*/g, '$1')
+            .replace(/___([^_]+)___/g, '$1')
+            .replace(/__([^_]+)__/g, '$1')
+            .replace(/_([^_]+)_/g, '$1')
+            .replace(/`([^`]+)`/g, '$1')
+            .replace(/\$([^\$]+)\$/g, '$1');
+}
+
 // INITIALIZATION
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
@@ -140,8 +207,9 @@ function renderExplorerGrid() {
   }
 
   grid.innerHTML = filtered.map(exp => {
-    const snippet = exp.scenario.length > 0 ? exp.scenario[0] : '';
-    const sourceBrief = exp.source ? exp.source.replace(/^Source:\s*/i, '').replace(/^Sumber:\s*/i, '') : 'Eksperimen Bebas';
+    const rawSnippet = exp.scenario.length > 0 ? exp.scenario[0] : '';
+    const snippetParsed = renderMarkdown(rawSnippet);
+    const sourceBrief = exp.source ? stripMarkdown(exp.source).replace(/^Source:\s*/i, '').replace(/^Sumber:\s*/i, '') : 'Eksperimen Bebas';
     const isAnswered = userQuizAnswers[exp.id] !== undefined;
     
     return `
@@ -151,9 +219,9 @@ function renderExplorerGrid() {
             <span class="card-num"># ${String(exp.id).padStart(3, '0')}</span>
             <span class="card-theme">${exp.theme.split('&')[0].trim()}</span>
           </div>
-          <h3 class="card-title">${exp.title_id}</h3>
+          <h3 class="card-title">${renderMarkdown(exp.title_id)}</h3>
           <div class="card-title-en">${exp.title_en}</div>
-          <div class="card-snippet">${snippet}</div>
+          <div class="card-snippet">${snippetParsed}</div>
         </div>
         <div class="card-footer">
           <span class="card-source-tag" title="${sourceBrief}">📖 ${sourceBrief}</span>
@@ -170,7 +238,7 @@ function populateChapterSelect() {
   if (!select) return;
 
   select.innerHTML = EXPERIMENTS_DATA.map(exp => `
-    <option value="${exp.id}"># ${String(exp.id).padStart(3, '0')}. ${exp.title_id}</option>
+    <option value="${exp.id}"># ${String(exp.id).padStart(3, '0')}. ${stripMarkdown(exp.title_id)}</option>
   `).join('');
 }
 
@@ -196,7 +264,7 @@ function navigateChapter(delta) {
 }
 
 function adjustFontSize(delta) {
-  currentFontSize = Math.max(16, Math.min(24, currentFontSize + delta * 1.5));
+  currentFontSize = Math.max(16, Math.min(26, currentFontSize + delta * 1.5));
   document.documentElement.style.setProperty('--reader-font-size', `${currentFontSize}px`);
 }
 
@@ -209,13 +277,14 @@ function loadExperiment(id) {
   const select = document.getElementById('reader-chapter-select');
   if (select) select.value = id;
 
-  const scenarioHTML = exp.scenario.map(p => `<p>${p}</p>`).join('');
-  const commentaryHTML = exp.commentary.map(p => `<p>${p}</p>`).join('');
+  // Render all markdown & LaTeX in scenario and commentary
+  const scenarioHTML = exp.scenario.map(p => `<p>${renderMarkdown(p)}</p>`).join('');
+  const commentaryHTML = exp.commentary.map(p => `<p>${renderMarkdown(p)}</p>`).join('');
 
   const sourceHTML = exp.source ? `
     <div class="source-citation">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-      <div><strong>Sumber Rujukan:</strong> ${exp.source}</div>
+      <div><strong>Sumber Rujukan:</strong> ${renderMarkdown(exp.source.replace(/^\*\*Sumber:\s*/i, '').replace(/\*\*$/i, ''))}</div>
     </div>
   ` : '';
 
@@ -236,7 +305,7 @@ function loadExperiment(id) {
               ${answeredIdx !== undefined ? 'disabled' : ''} 
               onclick="submitQuizAnswer(${exp.id}, ${idx})">
         <span class="quiz-opt-letter">${optionLetters[idx]}.</span>
-        <span style="flex:1;">${opt.text}</span>
+        <span style="flex:1;">${renderMarkdown(opt.text)}</span>
       </button>
     `;
   }).join('');
@@ -250,7 +319,7 @@ function loadExperiment(id) {
         <div class="feedback-heading">
           ${isCorrect ? '✅ Jawaban Tepat!' : '❌ Refleksi Filosofis:'}
         </div>
-        <p>${selectedOpt.explanation}</p>
+        <p>${renderMarkdown(selectedOpt.explanation)}</p>
       </div>
     `;
   }
@@ -261,7 +330,7 @@ function loadExperiment(id) {
         <span class="quiz-badge">Kuis Filosofis</span>
         <span class="quiz-status-tag">${answeredIdx !== undefined ? 'Status: Terjawab' : 'Uji Pemahaman'}</span>
       </div>
-      <h3 class="quiz-question">${quiz.question}</h3>
+      <h3 class="quiz-question">${renderMarkdown(quiz.question)}</h3>
       <div class="quiz-options-list">
         ${quizOptionsHTML}
       </div>
@@ -285,7 +354,7 @@ function loadExperiment(id) {
           return `
             <div class="see-also-card" onclick="openExperiment(${ref.id})">
               <span class="see-also-num">${String(ref.id).padStart(3, '0')}</span>
-              <span class="see-also-name">${targetTitle}</span>
+              <span class="see-also-name">${renderMarkdown(targetTitle)}</span>
             </div>
           `;
         }).join('')}
@@ -299,7 +368,7 @@ function loadExperiment(id) {
         <span class="article-number"># ${String(exp.id).padStart(3, '0')}</span>
         <span class="article-theme-tag">${exp.theme}</span>
       </div>
-      <h1 class="article-title">${exp.title_id}</h1>
+      <h1 class="article-title">${renderMarkdown(exp.title_id)}</h1>
       <div class="article-title-en">${exp.title_en}</div>
     </header>
 
@@ -337,14 +406,14 @@ function loadExperiment(id) {
     let prevHTML = prevExp ? `
       <div class="chapter-nav-card" onclick="openExperiment(${prevExp.id})">
         <span class="nav-direction-label">&larr; Bab Sebelumnya</span>
-        <span class="nav-card-title"># ${String(prevExp.id).padStart(3, '0')}. ${prevExp.title_id}</span>
+        <span class="nav-card-title"># ${String(prevExp.id).padStart(3, '0')}. ${stripMarkdown(prevExp.title_id)}</span>
       </div>
     ` : '<div></div>';
 
     let nextHTML = nextExp ? `
       <div class="chapter-nav-card next" onclick="openExperiment(${nextExp.id})">
         <span class="nav-direction-label">Bab Berikutnya &rarr;</span>
-        <span class="nav-card-title"># ${String(nextExp.id).padStart(3, '0')}. ${nextExp.title_id}</span>
+        <span class="nav-card-title"># ${String(nextExp.id).padStart(3, '0')}. ${stripMarkdown(nextExp.title_id)}</span>
       </div>
     ` : '<div></div>';
 
